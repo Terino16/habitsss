@@ -131,6 +131,10 @@ export type AssignedHabit = {
   prompts?: string[];
   activeMonths?: number[];
   foundation?: boolean;
+  /** Anchor role this habit filled, or `extra` for a rotated daypart extra. */
+  role?: string;
+  /** Score at selection time. Anchor scores include spread penalties. */
+  score?: number;
 };
 
 export type ChildPlan = {

@@ -258,7 +258,11 @@ function resolveDescription(habit: CatalogHabit, age: number) {
   return habit.variants?.[band] ?? habit.description;
 }
 
-function toAssigned(habit: CatalogHabit, age: number, extras?: { foundation?: boolean; time?: HabitTime }): AssignedHabit {
+function toAssigned(
+  habit: CatalogHabit,
+  age: number,
+  extras?: { foundation?: boolean; time?: HabitTime; role?: string; score?: number },
+): AssignedHabit {
   return {
     id: habit.id,
     title: habit.title,
@@ -274,6 +278,8 @@ function toAssigned(habit: CatalogHabit, age: number, extras?: { foundation?: bo
     prompts: habit.prompts,
     activeMonths: habit.activeMonths,
     foundation: extras?.foundation,
+    role: extras?.role,
+    score: extras?.score,
   };
 }
 
@@ -396,7 +402,7 @@ export function clusterCap(cluster: string | undefined, goals: GoalId[]) {
   return 1;
 }
 
-function isoWeek(date: Date) {
+export function isoWeek(date: Date) {
   const utc = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
   const day = utc.getUTCDay() || 7;
   utc.setUTCDate(utc.getUTCDate() + 4 - day);
@@ -557,7 +563,7 @@ function pickExtras(
       });
       if (pool.length === 0) return [];
       const extra = pool[(week + habitHash(daypart)) % pool.length];
-      return extra ? [extra] : [];
+      return extra ? [{ habit: extra, slot: daypart }] : [];
     });
   }
 
@@ -571,7 +577,7 @@ function pickExtras(
       })
       .sort((left, right) => compareScored(left, right, local));
     const extra = pool[(week + habitHash(daypart)) % Math.max(pool.length, 1)];
-    return extra ? [extra] : [];
+    return extra ? [{ habit: extra, slot: daypart }] : [];
   });
 }
 
@@ -595,6 +601,7 @@ export function assignHabits(input: AssignHabitsInput): HabitAssignment {
   const anchors: CatalogHabit[] = [];
   const assignedTimes = new Map<string, Daypart>();
   const assignedRoles = new Map<string, string>();
+  const assignedScores = new Map<string, number>();
 
   for (const role of rolesFor(guidance)) {
     const daypart = ROLE_DAYPART[role];
@@ -621,37 +628,133 @@ export function assignHabits(input: AssignHabitsInput): HabitAssignment {
     anchors.push(next);
     assignedTimes.set(next.id, daypart);
     assignedRoles.set(next.id, role);
+    assignedScores.set(next.id, scoreHabit(next, roleContext));
   }
 
   const extras = pickExtras(profile, anchors, context, week, guidance === 'hands_on').filter(
-    (habit) => !usedIds.has(habit.id),
+    (item) => !usedIds.has(item.habit.id),
   );
-  for (const extra of extras) {
+  for (const { habit: extra, slot } of extras) {
     const time = normalizeTime(extra.defaultTime);
-    assignedTimes.set(extra.id, time === 'Morning' || time === 'Afternoon' || time === 'Evening' ? time : 'Evening');
+    const daypart = time === 'Morning' || time === 'Afternoon' || time === 'Evening' ? time : 'Evening';
+    assignedTimes.set(extra.id, daypart);
+    assignedRoles.set(extra.id, `extra:${slot}`);
+    assignedScores.set(extra.id, scoreHabit(extra, { ...context, daypart: slot }));
   }
 
   const skills = pickSkills(input.age, context, week);
-  const standing = [...anchors, ...extras];
+  const standing = [...anchors, ...extras.map((item) => item.habit)];
 
   return {
     habits: standing.map((habit) =>
       toAssigned(habit, input.age, {
         foundation: FOUNDATION_ROLES.has(assignedRoles.get(habit.id) ?? ''),
         time: assignedTimes.get(habit.id),
+        role: assignedRoles.get(habit.id),
+        score: assignedScores.get(habit.id),
       }),
     ),
-    profile: profile.map((habit) => toAssigned(habit, input.age, { time: inferDaypart(habit) })),
+    profile: profile.map((habit) =>
+      toAssigned(habit, input.age, {
+        time: inferDaypart(habit),
+        score: scoreHabit(habit, context),
+      }),
+    ),
     anchors: anchors.map((habit) =>
       toAssigned(habit, input.age, {
         foundation: FOUNDATION_ROLES.has(assignedRoles.get(habit.id) ?? ''),
         time: assignedTimes.get(habit.id),
+        role: assignedRoles.get(habit.id),
+        score: assignedScores.get(habit.id),
       }),
     ),
-    skills: skills.map((habit) => toAssigned(habit, input.age, { foundation: false })),
+    skills: skills.map((habit) =>
+      toAssigned(habit, input.age, {
+        foundation: false,
+        score: scoreHabit(habit, context),
+      }),
+    ),
   };
 }
 
 export function catalogHabit(id: string) {
   return catalogById.get(id);
+}
+
+export type CatalogInspection = {
+  id: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  category: string;
+  ageGroups: string[];
+  defaultTime: HabitTime;
+  tags: string[];
+  goalTags: string[];
+  recommendedWhen: string[];
+  cluster?: string;
+  target: HabitTarget;
+  frequency: HabitFrequency;
+  priority: HabitPriority;
+  habitType: HabitKind;
+  prompts?: string[];
+  opportunity: boolean;
+  ageEligible: boolean;
+  inProfilePool: boolean;
+  nearbyFallback: boolean;
+  score: number;
+  matchedGoals: GoalId[];
+  matchedSignals: string[];
+  rejectReasons: string[];
+};
+
+export function inspectCatalog(input: {
+  age: number;
+  goals: GoalId[];
+  signals?: Iterable<string>;
+}): CatalogInspection[] {
+  const signals = new Set(input.signals ?? []);
+  const context: ScoreContext = { age: input.age, goals: input.goals, signals };
+  const band = catalogAgeGroup(input.age);
+
+  return catalog.map((habit) => {
+    const rejectReasons: string[] = [];
+    if (!allowedGender(habit)) rejectReasons.push('Gender is not both');
+    if (!habit.ageGroups.includes(band)) rejectReasons.push(`Age groups skip ${band}`);
+    if (input.age < 13 && isTeenOnly(habit)) rejectReasons.push('Teen-only under 13');
+    if (input.age < 9 && habit.category === 'puberty') rejectReasons.push('Puberty category under 9');
+    if (isOpportunity(habit)) rejectReasons.push('Opportunity — used for skills, not the daily profile');
+    if (habit.category === 'safety') rejectReasons.push('Safety is left out of daily routines');
+    if (habit.category === 'puberty' && input.age >= 9) rejectReasons.push('Puberty is left out of daily routines');
+
+    const strict = allowedForAge(habit, input.age, true);
+    const routine = isRoutineCandidate(habit);
+
+    return {
+      id: habit.id,
+      title: habit.title,
+      subtitle: habit.subtitle,
+      description: resolveDescription(habit, input.age),
+      category: habit.category,
+      ageGroups: habit.ageGroups,
+      defaultTime: normalizeTime(habit.defaultTime),
+      tags: habit.tags ?? [],
+      goalTags: habit.goalTags ?? [],
+      recommendedWhen: habit.recommendedWhen ?? [],
+      cluster: habit.cluster,
+      target: habit.target ?? 'parent',
+      frequency: habitFrequency(habit),
+      priority: habitPriority(habit),
+      habitType: habit.habitType ?? 'routine',
+      prompts: habit.prompts,
+      opportunity: isOpportunity(habit),
+      ageEligible: strict,
+      inProfilePool: strict && routine,
+      nearbyFallback: !strict && allowedForAge(habit, input.age, false) && routine,
+      score: scoreHabit(habit, context),
+      matchedGoals: matchingGoals(habit, input.goals),
+      matchedSignals: (habit.recommendedWhen ?? []).filter((signal) => signals.has(signal)),
+      rejectReasons,
+    };
+  });
 }
