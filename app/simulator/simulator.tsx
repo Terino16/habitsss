@@ -27,6 +27,17 @@ import {
   type FamilyInput,
 } from "./model";
 
+
+function signalLabel(signal: string) {
+  const [kind, goalId, optionId] = signal.split(":");
+  if (kind === "pain" || kind === "niche") {
+    const goal = listGoals().find(item => item.id === goalId);
+    const option = (kind === "pain" ? goal?.pains : goal?.niches)?.find(item => item.id === optionId);
+    if (option) return `${kind === "pain" ? "Pain point" : "Situation"}: ${option.label}`;
+  }
+  return words(signal);
+}
+
 const GOAL_WEIGHTS = [100, 80, 65];
 const DAYPARTS: HabitTime[] = ["Morning", "Afternoon", "Evening"];
 
@@ -113,9 +124,10 @@ const PRESETS: { id: string; label: string; family: FamilyInput; children: Child
     family: INITIAL_FAMILY,
     view: "compare",
     children: [
-      childDraft({ key: "maya", name: "Maya", age: 7 }),
+      childDraft({ key: "maya", name: "Maya", age: 7, contextSignals: ["siblings"] }),
       childDraft({
         key: "leo",
+        contextSignals: ["siblings"],
         name: "Leo",
         age: 12,
         own: true,
@@ -765,10 +777,9 @@ function PlanView({ result, when }: { result: ChildSimulation; when: Date }) {
           <Stat label="Skills" value={String(result.assignment.skills.length)} />
         </dl>
         <p className="mt-3 text-xs leading-5 text-[#6d6258]">
-          Quota for this guidance is {quota.Morning} morning, {quota.Afternoon} afternoon,{" "}
-          {quota.Evening} evening. The daily list is the anchors plus one extra rotated into each
-          daypart. An all-day extra keeps the evening column, and its label names the slot it was
-          picked for.
+          This plan allows up to {quota.Morning} morning, {quota.Afternoon} afternoon,{" "}
+          {quota.Evening} evening habits. Only hands-on plans add rotating extras. Plans stay
+          shorter when fewer habits fit the child and date.
         </p>
         {result.signals.length > 0 ? (
           <div className="mt-3 flex flex-wrap gap-1.5">
@@ -809,7 +820,7 @@ function PlanView({ result, when }: { result: ChildSimulation; when: Date }) {
               Skills this week
             </h3>
             {result.assignment.skills.length === 0 ? (
-              <p className="text-sm text-[#6d6258]">No opportunity habits for this age.</p>
+              <p className="text-sm text-[#6d6258]">No skills match this child’s age, goals and confirmed circumstances.</p>
             ) : (
               <div className="grid gap-3 md:grid-cols-3">
                 {result.assignment.skills.map((habit) => (
@@ -943,7 +954,7 @@ function HabitCard({
         <p className="mt-1 text-[11px] leading-4 text-[#1f6f66]">
           {[
             ...detail.matchedGoals.map((goal) => getGoal(goal).title),
-            ...detail.matchedSignals,
+            ...detail.matchedSignals.map(signalLabel),
           ].join(" · ")}
         </p>
       ) : null}
@@ -1068,8 +1079,8 @@ function CatalogView({ result, when }: { result: ChildSimulation; when: Date }) 
   const rows = result.catalog
     .filter((habit) => {
       if (pool === "profile" && !habit.inProfilePool) return false;
-      if (pool === "skills" && !(habit.opportunity && habit.ageEligible)) return false;
-      if (pool === "out" && (habit.inProfilePool || (habit.opportunity && habit.ageEligible))) return false;
+      if (pool === "skills" && !habit.inSkillPool) return false;
+      if (pool === "out" && (habit.inProfilePool || habit.inSkillPool)) return false;
       if (category !== "all" && habit.category !== category) return false;
       if (!query.trim()) return true;
       const haystack = [
@@ -1090,9 +1101,9 @@ function CatalogView({ result, when }: { result: ChildSimulation; when: Date }) 
   const counts = {
     all: result.catalog.length,
     profile: result.catalog.filter((habit) => habit.inProfilePool).length,
-    skills: result.catalog.filter((habit) => habit.opportunity && habit.ageEligible).length,
+    skills: result.catalog.filter((habit) => habit.inSkillPool).length,
     out: result.catalog.filter(
-      (habit) => !habit.inProfilePool && !(habit.opportunity && habit.ageEligible),
+      (habit) => !habit.inProfilePool && !habit.inSkillPool,
     ).length,
   };
 
@@ -1179,7 +1190,7 @@ function CatalogView({ result, when }: { result: ChildSimulation; when: Date }) 
                     <p className="mt-1 text-xs text-[#1f6f66]">
                       Matches {habit.matchedGoals.map((goal) => getGoal(goal).title).join(", ")}
                       {habit.matchedSignals.length > 0
-                        ? ` · signals ${habit.matchedSignals.join(", ")}`
+                        ? ` · signals ${habit.matchedSignals.map(signalLabel).join(", ")}`
                         : ""}
                     </p>
                   ) : null}

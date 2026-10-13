@@ -206,8 +206,9 @@ export function buildPlan(draft: Draft): FamilyPlan | null {
     const childGuidance = resolveGuidance(child.concerns?.guidance ?? draft.guidance);
     const signals = profileSignals({
       goals: childGoals,
-      painId: child.concerns?.painId ?? draft.painId,
-      nicheId: child.concerns?.nicheId ?? draft.nicheId,
+      painId: child.concerns ? child.concerns.painId : draft.painId,
+      nicheId: child.concerns ? child.concerns.nicheId : draft.nicheId,
+      contextSignals: child.contextSignals,
     });
     const childKey = child.id ?? child.name.trim();
     const assignment = assignHabits({

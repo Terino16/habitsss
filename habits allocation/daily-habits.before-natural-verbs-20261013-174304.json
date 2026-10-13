@@ -1,0 +1,3560 @@
+[
+  {
+    "id": "habit_same_three_step_bedtime",
+    "title": "Follow a familiar bedtime routine with your child",
+    "subtitle": "Brush teeth, read together, then settle for bed",
+    "description": "Help your child brush their teeth, read together, and go to bed at a regular time.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "cluster": "night_prep",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to brush their teeth, read, then settle for bed",
+        "subtitle": "Brush teeth, read together and settle at the agreed time",
+        "description": "Remind your child to follow their familiar bedtime steps: brush their teeth, read together and settle for bed at the agreed time.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/healthy-lifestyle/sleep/sleep-teens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_room_ready_for_sleep",
+    "title": "Dim your child’s bedroom lights before bed",
+    "subtitle": "Choose a dim night-light if your child needs one",
+    "description": "For children aged 3–18, reduce the light in their bedroom at bedtime. Use a dim, warm-coloured night-light if your child needs one.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3,
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to dim their bedroom lights before bed",
+        "subtitle": "Use a dim, warm night-light if they need one",
+        "description": "Before bedtime, remind your child to switch off bright bedroom lights. If they prefer a night-light, choose one with dim, warm lighting together.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Remind your teen to keep their bedroom dim and quiet at bedtime",
+        "subtitle": "Reduce light, noise and device distractions",
+        "description": "Remind your teen to dim the lights and put devices away before settling down. Discuss any noise or other distractions that make it difficult to sleep.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Ask your teen what is disturbing their sleep",
+        "subtitle": "Look for light, noise or devices they can adjust",
+        "description": "Ask whether light, noise or devices are interrupting your teen’s sleep. Let them choose a practical change to their bedroom and check whether it helps.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_screens_off_before_bed",
+    "title": "Put screens away an hour before your child’s bedtime",
+    "subtitle": "Charge devices outside the bedroom",
+    "description": "For children aged 3–18, agree that their screens go away at least an hour before bed. Keep devices outside their bedroom overnight.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep",
+      "calmer_screens"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3,
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to put devices away an hour before bed",
+        "subtitle": "Keep devices charging outside their bedroom overnight",
+        "description": "An hour before bedtime, remind your child to finish using screens and put their devices in a charging spot outside the bedroom. Leave them there overnight.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Remind your teen to switch off screens an hour before bed",
+        "subtitle": "Let them set a reminder and charge devices outside their bedroom",
+        "description": "Ask your teen to set a reminder for an hour before bedtime. When it goes off, they can finish using screens and leave devices charging outside their bedroom overnight.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Encourage your teen to finish screen time an hour before bed",
+        "subtitle": "Let them plan when to stop games, videos and messages",
+        "description": "Ask your teen to plan their online activities so they can put screens away an hour before bedtime. Keep devices outside the bedroom overnight.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_morning_outside_five",
+    "title": "Spend time outdoors with your child in the morning",
+    "subtitle": "Make daylight part of the morning routine",
+    "description": "Encourage time outdoors in natural light, especially in the morning. Choose a safe activity that suits your child.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement",
+    "minAge": 3
+  },
+  {
+    "id": "habit_same_wake_time",
+    "title": "Help your child keep regular bedtime and wake-up times",
+    "subtitle": "Keep your child’s sleep schedule similar on weekends",
+    "description": "For children aged 3–18, help them keep bedtimes and wake-up times within 1–2 hours across the week.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3,
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to stick to their bedtime and wake-up times",
+        "subtitle": "Keep weekend sleep times close to the weekday routine",
+        "description": "Choose regular bedtime and wake-up times together. Remind your child to follow them, keeping weekend times similar to school days.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/healthy-lifestyle/sleep/sleep-teens"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Choose a bedtime with your teen that fits their school mornings",
+        "subtitle": "Allow enough sleep before they need to get up",
+        "description": "Start with the time your teen needs to wake for school and choose a bedtime that allows enough sleep. Let them choose a quiet activity to do before bed.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/healthy-lifestyle/sleep/sleep-teens"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Ask your teen whether they are getting enough sleep",
+        "subtitle": "Adjust sleep times when commitments leave them short of rest",
+        "description": "Ask how rested your teen feels during the day. If school, work or other commitments leave too little time for sleep, discuss changes to their bedtime and wake-up time.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/healthy-lifestyle/sleep/sleep-teens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_bathroom_before_bed",
+    "title": "Remind your child to use the toilet before bed",
+    "subtitle": "For children who wet the bed: keep the toilet easy to reach",
+    "description": "If your child wets the bed, remind them to use the toilet before bedtime. Make sure they can reach the toilet easily during the night.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [
+      "bedwetting"
+    ],
+    "cluster": "night_prep",
+    "requiredSignals": [
+      "bedwetting"
+    ]
+  },
+  {
+    "id": "habit_teen_sleep_without_lecture",
+    "title": "Listen to your teen’s worries before settling for sleep",
+    "subtitle": "Make time earlier in the day for longer conversations",
+    "description": "Acknowledge worries that come up at bedtime. If they need a longer discussion, arrange time during the day to talk them through.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen",
+      "bedtime"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_fruit_or_veg_with_meal",
+    "title": "Include fruit, vegetables and whole grains in family meals",
+    "subtitle": "Choose different options across the week",
+    "description": "Offer fruit, vegetables and whole-grain foods across meals, rather than repeatedly relying on the same foods.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "picky_eating"
+    ],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": [],
+    "cluster": "meal_participation",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Let your child choose fruit and vegetables for family meals",
+        "subtitle": "Add their choices to the shopping list",
+        "description": "When planning meals, offer a variety of fruit and vegetables and let your child choose some to include. Add their choices to the family shopping list.",
+        "sources": [
+          "https://raisingchildren.net.au/pre-teens/healthy-lifestyle/healthy-eating-habits/healthy-eating-habits-teens"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Invite your teen to help plan balanced family meals",
+        "subtitle": "Include fruit, vegetables and whole grains on the shopping list",
+        "description": "Plan upcoming meals together and ask your teen to help write the shopping list. Include fruit, vegetables and whole grains among the foods you choose.",
+        "sources": [
+          "https://raisingchildren.net.au/pre-teens/healthy-lifestyle/healthy-eating-habits/healthy-eating-habits-teens"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Talk with your teen about choosing balanced meals when eating out",
+        "subtitle": "Discuss options they enjoy from different food groups",
+        "description": "Ask what your teen likes to eat away from home. Discuss how they can include a variety of food groups in meals from the places they usually visit.",
+        "sources": [
+          "https://raisingchildren.net.au/pre-teens/healthy-lifestyle/healthy-eating-habits/healthy-eating-habits-teens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_child_decides_how_much",
+    "title": "Let your child stop eating when full",
+    "subtitle": "Offer food without pressure to finish",
+    "description": "Provide meals and snacks at predictable times, and let your child decide whether they are hungry and when they have eaten enough.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "picky_eating"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": [
+      "picky_eating"
+    ]
+  },
+  {
+    "id": "habit_one_meal_together",
+    "title": "Share a relaxed family meal",
+    "subtitle": "Make room for friendly conversation",
+    "description": "Eat together when possible and keep mealtime conversation pleasant, without arguments or lectures.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals",
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "meal_participation"
+  },
+  {
+    "id": "habit_protein_at_breakfast",
+    "title": "Vary the protein foods you serve your child",
+    "subtitle": "Include options such as beans, eggs, fish or lean meat",
+    "description": "Include protein foods such as beans, eggs, fish or lean meat as part of varied meals.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_water_not_sugary",
+    "title": "Offer your child water instead of sugary drinks",
+    "subtitle": "Make water an everyday option",
+    "description": "Offer your child water in place of soda and other sugary drinks.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_no_body_comments",
+    "title": "Avoid comparing your teen’s body with anyone else’s",
+    "subtitle": "Talk about caring for bodies without judging their appearance",
+    "description": "Avoid comparisons about your child’s body or your own. Talk about caring for the body without ranking people by their size or appearance.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "more_confidence",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_no_good_bad_food",
+    "title": "Offer your toddler a new food alongside familiar foods",
+    "subtitle": "Start with a small portion and avoid pressure to take a bite",
+    "description": "Serve a small amount of a new food with familiar foods. Offer it again on another occasion without bargaining over bites.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "picky_eating"
+    ],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": [
+      "picky_eating"
+    ]
+  },
+  {
+    "id": "habit_get_outside_today",
+    "title": "Walk or cycle with your child on short trips",
+    "subtitle": "Build movement into family travel",
+    "description": "When practical, walk or cycle together for short journeys instead of taking the car.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_active_play_under_five",
+    "title": "Give your preschooler time to run, dance and play",
+    "subtitle": "Offer several chances to move throughout the day",
+    "description": "For ages 2–4, offer varied movement totalling at least 3 hours across the day. At ages 3–4, include at least an hour of more energetic play. Adapt activities to ability and any individual healthcare advice.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement",
+    "minAge": 2,
+    "maxAge": 4
+  },
+  {
+    "id": "habit_move_hour_across_day",
+    "title": "Plan time for your child to play sports, cycle or dance",
+    "subtitle": "Choose activities they enjoy and can manage",
+    "description": "For ages 5–18, build varied activity into the week. General guidance is an average of at least 60 minutes of moderate or vigorous activity daily; adapt the plan for disability or health needs using individual advice.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement",
+    "minAge": 5,
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Let your child choose active games or sports they enjoy",
+        "subtitle": "Make room for different activities during the week",
+        "description": "Offer a choice of active games or sports suited to your child’s abilities. Let them choose what they enjoy and make time for those activities during the week.",
+        "sources": [
+          "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Plan time with your teen for sports and other physical activity",
+        "subtitle": "Choose a mix that builds fitness, strength and movement skills",
+        "description": "Ask which physical activities your teen enjoys and plan when they can do them. Include a variety that develops fitness, movement skills, muscles and bones.",
+        "sources": [
+          "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Encourage your teen to make time for regular physical activity",
+        "subtitle": "Fit activities they enjoy around school, work and other plans",
+        "description": "Let your teen choose enjoyable activities and decide where they fit in the week. Support changes for their abilities, health needs or other commitments.",
+        "sources": [
+          "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_practice_physical_skill",
+    "title": "Play throwing-and-catching games with your child",
+    "subtitle": "Choose throws and catches they can manage",
+    "description": "Play throwing-and-catching games suited to your child’s age and ability.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_free_play_outside",
+    "title": "Let your child choose their own outdoor game",
+    "subtitle": "Supervise without directing every part of play",
+    "description": "Offer a safe outdoor space and let your child decide how to play. Stay available and supervise as their age and the setting require.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_move_before_homework",
+    "title": "Encourage your child to move after sitting for a long time",
+    "subtitle": "Break up long seated activities",
+    "description": "During long periods of sitting, encourage a movement break such as walking or dancing, adapted to your child’s abilities.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [
+      "attention_difficulty"
+    ],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty",
+      "homework_conflict",
+      "difficulty_starting_tasks"
+    ],
+    "cluster": "daily_movement",
+    "minAge": 5
+  },
+  {
+    "id": "habit_brush_teeth_twice",
+    "title": "Help your child brush their teeth morning and night",
+    "subtitle": "Use fluoride toothpaste and help while they learn",
+    "description": "Help your child brush their teeth twice daily for two minutes with fluoride toothpaste. Use a rice-grain amount under age 3 and a pea-sized amount at ages 3–6. Help young children brush and supervise until they can brush thoroughly.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "cluster": "teeth",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 18,
+        "title": "Remind your child to brush their teeth morning and night",
+        "subtitle": "Two minutes each time, using fluoride toothpaste",
+        "description": "Remind your child to brush twice daily for two minutes with fluoride toothpaste. Check that they are brushing thoroughly and offer support if needed.",
+        "sources": [
+          "https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_wash_hands_coming_home",
+    "title": "Help your child wash their hands before eating and after using the toilet",
+    "subtitle": "Teach your child to use soap, scrub, rinse and dry",
+    "description": "Remind your child to wash their hands with soap and water before eating and after using the toilet. Help them scrub for at least 20 seconds, then rinse and dry their hands; give hands-on help while they learn.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 18,
+        "title": "Remind your child to wash their hands before eating and after using the toilet",
+        "subtitle": "Soap and water, a 20-second scrub, then rinse and dry",
+        "description": "Remind your child to wash with soap and water before eating and after using the toilet, scrubbing for at least 20 seconds before rinsing and drying. Offer support if they need it.",
+        "sources": [
+          "https://www.cdc.gov/handwashing/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_sunscreen_before_outdoors",
+    "title": "Apply sunscreen to your child’s exposed skin before going outdoors",
+    "subtitle": "Use shade and protective clothing too",
+    "description": "Use broad-spectrum sunscreen, SPF 15 or higher, on exposed skin 15–30 minutes before going outside. Reapply every two hours and after swimming, sweating or towel drying. Use shade, a hat and protective clothing too.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "event_based",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_water_bottle_to_school",
+    "title": "Pack water in your child’s school bag",
+    "subtitle": "Make drinking water available at school",
+    "description": "Fill a reusable bottle with water and put it with your child’s school things.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_clean_clothes_after_activity",
+    "title": "Remind your teen to change out of sweaty sports clothes",
+    "subtitle": "Put the used clothes in the laundry basket",
+    "description": "After exercise, encourage your teen to change into clean clothes and put sweaty clothing aside for washing.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "event_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "minAge": 11
+  },
+  {
+    "id": "habit_one_body_care_skill",
+    "title": "Remind your teen to shower or bathe each day",
+    "subtitle": "Talk about body odour and personal care privately",
+    "description": "Remind your teen to follow a daily shower or bath routine, including washing underarms and feet. Discuss deodorant privately if needed.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "minAge": 11
+  },
+  {
+    "id": "habit_three_slow_breaths",
+    "title": "Practise slow breathing with your child while they are calm",
+    "subtitle": "Breathe in gently and let the breath out slowly",
+    "description": "In a quiet moment, practise breathing slowly in through the nose and out through the mouth. Start with one breath for younger children.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "cluster": "emotional_labeling"
+  },
+  {
+    "id": "habit_rate_feeling",
+    "title": "Help your child notice when anger is building",
+    "subtitle": "Look for signs such as tense muscles or clenched fists",
+    "description": "Help your child recognise their own warning signs, such as tense muscles, clenched fists or a faster heartbeat.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_name_feeling_before_reacting",
+    "title": "Help your child put their feelings into words when they are upset",
+    "subtitle": "Connect the emotion to what happened",
+    "description": "Listen to what happened and help your young child find words for the emotion they are experiencing.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "cluster": "emotional_labeling"
+  },
+  {
+    "id": "habit_pick_calmdown",
+    "title": "Help your child choose what to do when they start feeling angry",
+    "subtitle": "Practise a response while they are calm",
+    "description": "Together choose a response, such as walking away to a safe place or talking to a trusted adult. Practise before anger builds.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Practise a way to calm down with your child",
+        "subtitle": "Try stepping away safely or talking to a trusted adult",
+        "description": "When your child is calm, choose a response they can use when anger builds, such as stepping away to a safe place or talking to a trusted adult. Practise it together.",
+        "sources": [
+          "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Help your teen choose what to do when anger starts building",
+        "subtitle": "Connect an early warning sign with a calming action",
+        "description": "When your teen is calm, ask how they notice anger building. Help them choose an action to try at that point, such as stepping away safely or talking to a trusted adult.",
+        "sources": [
+          "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Ask your teen what helps them calm down when angry",
+        "subtitle": "Talk about what worked and what they could try next time",
+        "description": "At a calm moment, ask which responses helped during a recent angry feeling. Discuss what they might try next time and whom they could ask for help if anger remains difficult.",
+        "sources": [
+          "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_say_what_you_need",
+    "title": "Teach your child to ask for a toy instead of hitting",
+    "subtitle": "Practise the words after they have calmed down",
+    "description": "When everyone is calm, explain that anger is allowed but hitting hurts. Help your child practise words for asking or taking turns.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_stay_present_until_settles",
+    "title": "Stay calmly nearby while your upset child settles",
+    "subtitle": "Check safety and wait before discussing behaviour",
+    "description": "Stay close enough to keep your child safe while the strong feeling passes. Offer calm support; discuss what happened after they can listen.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing",
+      "better_cooperation",
+      "less_conflict"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_daily_connection_after_school",
+    "title": "Give your child your full attention during time together",
+    "subtitle": "Put your phone away and join their play or conversation",
+    "description": "Set aside one-to-one time with distractions switched off. Join your child in play or conversation about something they enjoy.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "closer_connection",
+      "less_conflict"
+    ],
+    "recommendedWhen": [],
+    "cluster": "connection_time",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Spend uninterrupted time doing something your child enjoys",
+        "subtitle": "Let them choose the activity and put your phone away",
+        "description": "Ask your child what they would like to do together. Join in and put distracting devices away so they have your attention.",
+        "sources": [
+          "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Let your teen choose how you spend time together",
+        "subtitle": "Join their interests without turning the time into a quiz",
+        "description": "Ask your teen what they would enjoy doing with you. Give them your attention and let conversation develop without pressing them with questions.",
+        "sources": [
+          "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Make time with your teen for an activity you can do together",
+        "subtitle": "Choose a time that fits both your schedules",
+        "description": "Ask your teen to suggest something to do together and agree on a time that works for you both. Put distractions away during that time.",
+        "sources": [
+          "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_daily_check_in",
+    "title": "Listen to your child, then check you understood",
+    "subtitle": "Let them finish before putting their meaning into your own words",
+    "description": "Listen without interrupting. Paraphrase what your child said and let them explain if you misunderstood.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_teen_conversation_no_advice",
+    "title": "Ask your child whether they want advice or just someone to listen",
+    "subtitle": "Let them tell you what kind of support they need",
+    "description": "Listen first, then ask whether your child wants you to listen or help them work through a solution.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "anxiety"
+    ],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "anxiety",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_teen_what_excited",
+    "title": "Ask your child what they enjoyed or found difficult at school",
+    "subtitle": "Listen to their experiences with friends and learning",
+    "description": "Ask about friends, enjoyable experiences and difficulties, then listen to how your child feels about them.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "closer_connection",
+      "better_talk",
+      "more_confidence"
+    ],
+    "recommendedWhen": [
+      "low_confidence"
+    ],
+    "cluster": "connection_time",
+    "minAge": 6,
+    "maxAge": 10
+  },
+  {
+    "id": "habit_one_step_then_wait",
+    "title": "Tell your toddler one specific thing to do at a time",
+    "subtitle": "Get their attention and use a calm voice",
+    "description": "Give a short direction naming the action, such as putting a toy in its box. Wait for your child to respond before adding another instruction.",
+    "category": "behaviour",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "easier_transitions",
+      "closer_connection"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ]
+  },
+  {
+    "id": "habit_warn_before_transition",
+    "title": "Warn your child five minutes before playtime ends",
+    "subtitle": "Explain which activity comes next",
+    "description": "Before ending play, give a five-minute warning and explain what will happen next.",
+    "category": "behaviour",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "easier_transitions"
+    ],
+    "recommendedWhen": [],
+    "cluster": "transition_support"
+  },
+  {
+    "id": "habit_compare_solutions_with_teen",
+    "title": "Talk through a difficult decision with your teen",
+    "subtitle": "Compare the options and what might happen with each",
+    "description": "Name the problem together, list possible solutions and discuss the advantages and disadvantages. Agree on a workable choice and check later how it went.",
+    "category": "behaviour",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "more_confidence"
+    ],
+    "recommendedWhen": [],
+    "minAge": 9,
+    "cluster": "independence_problem_solving",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Talk through solutions to an everyday problem with your child",
+        "subtitle": "Compare a few options and choose one to try",
+        "description": "Ask your child to describe the problem, then list possible solutions together. Compare the options and agree on one to try.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Ask your teen for their ideas before offering a solution",
+        "subtitle": "Discuss what might happen with each option",
+        "description": "When your teen brings you a problem, ask what they think could work. Discuss the likely consequences of their ideas and agree how they will try their chosen option.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Let your teen choose a solution and learn from the result",
+        "subtitle": "Talk through the options, then check how their choice worked",
+        "description": "For an everyday decision, let your teen compare possible solutions and their consequences. After they try one, ask what worked and what they would change.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_set_table_together",
+    "title": "Teach your child to help set the table before meals",
+    "subtitle": "Start with items they can carry safely",
+    "description": "Show your child where table items go, then let them help. Choose items and support to suit their abilities.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "minAge": 4,
+    "maxAge": 5,
+    "cluster": "household_contribution"
+  },
+  {
+    "id": "habit_describe_toddler_play",
+    "title": "Describe what your toddler is doing as they play",
+    "subtitle": "Put their actions into simple words",
+    "description": "While watching your child play, describe their actions, shapes or colours without turning it into a quiz. Follow what interests them.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_talk",
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "play_language",
+    "minAge": 2,
+    "maxAge": 4
+  },
+  {
+    "id": "habit_dress_themselves",
+    "title": "Help your child practise putting on their own clothes",
+    "subtitle": "Break dressing into manageable steps",
+    "description": "Offer easy-to-manage clothes and help with the steps your child cannot yet do. Let them practise at their own pace.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "minAge": 2,
+    "maxAge": 5
+  },
+  {
+    "id": "habit_clean_own_spill",
+    "title": "Help your child wipe up a small spill they made",
+    "subtitle": "Show them how to use a cloth",
+    "description": "For a small, safe spill, show your child how to wipe it up and help as needed. An adult handles hot liquids, broken glass and other hazards.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to wipe up a small spill they made",
+        "subtitle": "Use a cloth for small spills; leave hazards to an adult",
+        "description": "Remind your child to wipe up a small, safe spill with a cloth. An adult handles hot liquids, broken glass and other hazards.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_rehearse_greeting_before_play",
+    "title": "Practise a greeting with your child before they meet new children",
+    "subtitle": "Rehearse a greeting together at home",
+    "description": "If meeting children feels daunting, role-play saying hello and asking about a game before the visit.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_talk",
+      "more_confidence",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "minAge": 4,
+    "maxAge": 8,
+    "cluster": "social_confidence"
+  },
+  {
+    "id": "habit_dirty_clothes_hamper",
+    "title": "Teach your child to put dirty clothes in the laundry basket",
+    "subtitle": "Show them where used clothes belong",
+    "description": "Put a laundry basket within reach and show your child where to put clothes that need washing. Help younger children.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 18,
+        "title": "Remind your child to put dirty clothes in the laundry basket",
+        "subtitle": "Keep a laundry basket within easy reach",
+        "description": "Remind your child to put clothes that need washing in the laundry basket. Keep it within reach and offer support if they need it.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_clean_up_before_next",
+    "title": "Help your child put their toys away",
+    "subtitle": "Show your child where each toy belongs",
+    "description": "Help your young child put toys away, giving them support as they learn the task.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_prepare_part_of_meal",
+    "title": "Let your child help measure ingredients while you cook",
+    "subtitle": "Show them how to fill and level a measuring cup",
+    "description": "During a suitable cooking activity, help your child fill and level measuring cups and compare quantities.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "cluster": "meal_participation",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Cook a simple recipe with your child",
+        "subtitle": "Let them read the steps and measure ingredients",
+        "description": "Choose a simple recipe and let your child read the steps and measure ingredients. Supervise food preparation and show them how to use equipment safely.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/family-life/family-meals-cooking/cooking-with-kids-teens"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Let your teen cook a simple family meal",
+        "subtitle": "Stay available for unfamiliar steps or equipment",
+        "description": "Choose a recipe with your teen and agree which steps they can do safely. Let them prepare the meal, with your help for techniques or equipment they have not learned.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/family-life/family-meals-cooking/cooking-with-kids-teens"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Let your teen plan and cook a family meal within a budget",
+        "subtitle": "Give them responsibility for the recipe and shopping list",
+        "description": "Agree on a budget and let your teen choose a recipe, shop for ingredients and cook the meal. Stay available for equipment or techniques they have not learned.",
+        "sources": [
+          "https://raisingchildren.net.au/teens/family-life/family-meals-cooking/cooking-with-kids-teens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_reset_room_five",
+    "title": "Give your child a clear role in household chores",
+    "subtitle": "Write down their jobs and when each needs doing",
+    "description": "Discuss suitable chores with your child and use a list or chart to show who is responsible and when each job needs doing.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Let your child choose a household job to take responsibility for",
+        "subtitle": "Show them the steps and agree when it needs doing",
+        "description": "Choose a suitable household job together and practise any unfamiliar steps. Write down what your child is responsible for and when it needs doing.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Agree on household jobs your teen can do independently",
+        "subtitle": "Be clear about the timing and what a finished job looks like",
+        "description": "Discuss which jobs your teen will take responsibility for. Agree when they need doing, explain what completing each job involves and teach unfamiliar steps.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Let your teen schedule their household jobs",
+        "subtitle": "Fit agreed chores around school, work and other commitments",
+        "description": "Agree which household jobs your teen is responsible for and let them plan when to do them. Ask them to raise timing clashes so you can discuss a workable schedule.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_clear_own_plate",
+    "title": "Let your child help clear their plate after a meal",
+    "subtitle": "Use dishes they can carry safely",
+    "description": "Show your child where used dishes go and help them carry suitable items after eating.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 18,
+        "title": "Remind your child to clear their plate after eating",
+        "subtitle": "Choose dishes they can carry safely",
+        "description": "Remind your child to take their used plate to the agreed place after a meal. Let them carry items they can handle safely and offer help when needed.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_thank_someone_for_helping",
+    "title": "Let your child hear you thank someone for helping",
+    "subtitle": "Name what you appreciated",
+    "description": "Model gratitude by thanking someone for a specific helpful action while your child is present.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "child",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_teen_money_this_week",
+    "title": "Compare prices and features with your teen before choosing a phone plan",
+    "subtitle": "Discuss which option fits the family’s needs and budget",
+    "description": "When choosing a phone plan with your teen, compare features and costs together against the family’s needs and budget.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "choosing_phone_plan"
+    ]
+  },
+  {
+    "id": "habit_read_ten_minutes",
+    "title": "Invite your child to describe the pictures while you read together",
+    "subtitle": "Build on their comments without turning reading into a quiz",
+    "description": "With a preschooler, invite comments about the pictures, build on their answers and follow their interest. Keep it enjoyable rather than questioning them on every page.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3,
+    "maxAge": 5
+  },
+  {
+    "id": "habit_why_do_you_think",
+    "title": "Explore your child’s questions together",
+    "subtitle": "Look closely, find information or try a simple experiment",
+    "description": "When your child wonders about something, explore the answer together through observation or a simple experiment. You do not need to know the answer beforehand.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_ten_minutes_creating",
+    "title": "Let your child draw or paint without copying a sample",
+    "subtitle": "Provide materials and let them choose what to make",
+    "description": "For young children, provide blank paper and suitable drawing or craft materials. Let them explore without copying a model or having their work corrected.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_let_boredom_happen",
+    "title": "Make a list of things your child enjoys doing when bored",
+    "subtitle": "Let them choose from their own ideas during free time",
+    "description": "Create a list together based on your child’s interests. Use pictures for younger children, and let them refer to it during free time.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_solve_everyday_problem",
+    "title": "Meet as a family each week to discuss plans and concerns",
+    "subtitle": "Give everyone a turn to speak and write down agreements",
+    "description": "For families with school-age children, meet at a regular weekly time, let everyone speak without interruption, and record agreements. Keep reprimands out of the meeting.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "weekly",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "closer_connection",
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_explore_something_new",
+    "title": "Invite your child to draw or photograph something in nature",
+    "subtitle": "Record what caught their attention and revisit it together",
+    "description": "When a plant, the moon or changing leaves catches your child’s interest, invite them to draw or photograph it. Offer help with recording their observations so you can revisit them together.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_prepare_tomorrow_tonight",
+    "title": "Check your child’s homework deadlines together",
+    "subtitle": "Put assignments and due dates in a planner",
+    "description": "Review upcoming assignments with your child and record due dates. Help them decide when to work on each task.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "morning_chaos",
+      "difficulty_starting_tasks"
+    ],
+    "cluster": "school_prep",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to write homework deadlines in their planner",
+        "subtitle": "Check the assignments and due dates together",
+        "description": "Have your child record each assignment and its due date in their planner. Check the entries together so they know what needs doing and when.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Encourage your teen to plan their homework for the week",
+        "subtitle": "Put deadlines and other commitments on one calendar",
+        "description": "Ask your teen to put assignments and other commitments on a weekly calendar. Review it together and discuss any clashes.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Encourage your teen to plan ahead for competing deadlines",
+        "subtitle": "Spread the work out and flag an unmanageable workload early",
+        "description": "Ask your teen to look ahead for assignments due close together and plan when to work on each. Discuss adjustments if their schedule leaves too much work for the time available.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_homework_spot_ready",
+    "title": "Set up a quiet homework space for your child",
+    "subtitle": "Keep your child’s supplies ready and reduce distractions",
+    "description": "Provide your child with a well-lit workspace and the materials they need. Reduce distractions such as television and phone calls while they work.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus",
+      "calmer_screens"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to get their homework space ready",
+        "subtitle": "Gather supplies and clear distractions before they start",
+        "description": "Before homework, remind your child to gather the materials they need and clear distractions from their workspace. Offer support if the space needs changing.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Choose a suitable study space with your teen",
+        "subtitle": "Agree how to reduce interruptions while they work",
+        "description": "Let your teen suggest a space where they can study. Discuss distractions and agree how you will check in without repeatedly interrupting their work.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Ask your teen what would make their study space work better",
+        "subtitle": "Let them choose practical ways to reduce distractions",
+        "description": "Ask what interrupts your teen’s concentration while studying. Let them suggest changes to their space and support their plan to reduce distractions.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_five_minute_first_task",
+    "title": "Help your child divide a large assignment into smaller parts",
+    "subtitle": "Plan manageable work sessions with your child",
+    "description": "Help your child break a big assignment into sections and make a schedule for completing them.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Break a big assignment into smaller steps with your child",
+        "subtitle": "Write a short task list and choose where to start",
+        "description": "Look through the assignment together and write down the smaller tasks it involves. Let your child choose a starting point and plan manageable work sessions.",
+        "sources": [
+          "https://kidshealth.org/en/parents/homework.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Ask your teen to plan the steps of a large assignment",
+        "subtitle": "Set a deadline for each stage before they begin",
+        "description": "Have your teen list the stages of the assignment and decide when to complete each one. Review the plan together before they start.",
+        "sources": [
+          "https://kidshealth.org/en/parents/homework.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Encourage your teen to plan and track a large assignment",
+        "subtitle": "Adjust the schedule as the work progresses",
+        "description": "Let your teen plan the assignment’s stages and deadlines. Check in at agreed points and discuss changes if the remaining work no longer fits their schedule.",
+        "sources": [
+          "https://kidshealth.org/en/parents/homework.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_model_reading_for_pleasure",
+    "title": "Let your child see you reading a book for enjoyment",
+    "subtitle": "Show that reading can be enjoyable outside school",
+    "description": "Let your child see you reading for yourself, so reading is something adults enjoy as well as a school task.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": [],
+    "cluster": "reading_role_model"
+  },
+  {
+    "id": "habit_invite_someone_to_join",
+    "title": "Help your child invite a friend over to play",
+    "subtitle": "Let them choose whom to invite and coordinate with the other parent",
+    "description": "Ask your school-age child whom they would like to invite, then coordinate with the other parent. Give the children space to play while remaining available.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_take_turns",
+    "title": "Play a card or board game to teach your child to take turns",
+    "subtitle": "Explain each turn and help when waiting is difficult",
+    "description": "Play a suitable card or board game and explain whose turn comes next. Offer support while your child learns, instead of requiring independent turn-taking immediately.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_practice_no_thank_you",
+    "title": "Respect your child’s choice to refuse a hug or kiss",
+    "subtitle": "Support their right to say no to unwanted touch",
+    "description": "Explain that they can refuse unwanted touch, even from familiar people. Respect their answer when offering affection.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_look_for_someone_left_out",
+    "title": "Practise with your child what to do if they are bullied",
+    "subtitle": "Speak up if safe, move away and tell a trusted adult",
+    "description": "Discuss what your child can do if bullied: speak firmly if safe, move away when it is not, and seek help from a trusted adult.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_repair_after_hurting",
+    "title": "Help your child make amends if they have bullied someone",
+    "subtitle": "Choose a response that addresses the harm they caused",
+    "description": "Only when your child has bullied someone: involve them in an appropriate repair, such as fixing damaged property or writing an apology. Do not force a meeting with the child who was harmed.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": [
+      "bullying_others"
+    ],
+    "requiredSignals": [
+      "bullying_others"
+    ]
+  },
+  {
+    "id": "habit_ask_before_touching",
+    "title": "Teach your child to ask before borrowing someone else’s belongings",
+    "subtitle": "Help your child wait for permission before taking an item",
+    "description": "Model asking to use someone else’s things and waiting for their answer. Remind your child of the same rule when needed.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_disagree_respectfully",
+    "title": "Let your teen explain their view before you respond in a disagreement",
+    "subtitle": "Hear your teen out without insults or interruptions",
+    "description": "When you disagree, hear your teen’s perspective calmly before explaining yours. Focus on the issue rather than personal criticism.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_tell_when_boundary_crossed",
+    "title": "Teach your child to tell a trusted adult about touch or secrets that worry them",
+    "subtitle": "Make clear that speaking up is allowed",
+    "description": "Explain that they can tell a trusted adult about anything that worries or upsets them, even if someone asked them to keep it secret.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_helpful_without_asked",
+    "title": "Volunteer together in an activity suitable for your child",
+    "subtitle": "Choose a community activity that welcomes children",
+    "description": "Include your child in a suitable community activity, such as helping with a food-bank meal. Choose an opportunity that welcomes children and fits their abilities.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_know_one_friend",
+    "title": "Invite your teen’s friends over so you can get to know them",
+    "subtitle": "Make friends welcome in your home",
+    "description": "Create opportunities to meet the friends your teen spends time with, including welcoming them into your home.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "weekly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_relationships_no_lecture",
+    "title": "Talk with your teen about respect and control in relationships",
+    "subtitle": "Discuss pressure, personal choices and the freedom to disagree",
+    "description": "With your teen, discuss being able to keep friendships, make choices and disagree safely. Explain how controlling behaviour differs from care.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_praise_effort_or_strategy",
+    "title": "Praise a specific effort your child made",
+    "subtitle": "Say what they did and why you appreciated it",
+    "description": "Describe a specific effort or helpful action rather than giving a general label about the child.",
+    "category": "confidence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "more_confidence"
+    ],
+    "recommendedWhen": [
+      "low_confidence"
+    ],
+    "cluster": "specific_praise",
+    "minAge": 6,
+    "maxAge": 10
+  },
+  {
+    "id": "habit_leave_mistake_unfixed",
+    "title": "Let your child do their own homework",
+    "subtitle": "Offer guidance without taking over",
+    "description": "Be available to explain or suggest an approach, while letting your child do the thinking and complete the work themselves.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": [],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Let your child try their homework before offering a hint",
+        "subtitle": "Explain unclear instructions without supplying the answer",
+        "description": "Give your child time to attempt the work themselves. If they get stuck, clarify the instructions or suggest an approach while leaving the thinking and answers to them.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Ask what your teen has tried before helping with homework",
+        "subtitle": "Focus your guidance on the part they find difficult",
+        "description": "Ask your teen to show you where they are stuck and explain what they have tried. Offer guidance on that part without completing the work for them.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Encourage your teen to ask their teacher about work they find difficult",
+        "subtitle": "Help them turn the sticking point into a clear question",
+        "description": "If your teen keeps getting stuck on homework, ask them to identify what they do not understand. Help them prepare a question and encourage them to ask their teacher.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_let_them_teach_you",
+    "title": "Ask your child to show you the apps and games they use",
+    "subtitle": "Learn what they do there and how they interact with other people",
+    "description": "Let your child walk you through a platform they use so you understand its features and how they interact with others there.",
+    "category": "digital",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "calmer_screens",
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_decide_screen_stopping_point",
+    "title": "Agree on screen-use limits with your child",
+    "subtitle": "Choose screen-free times for meals, homework and bedtime",
+    "description": "Create a family media plan with expectations and limits suited to your child. Agree on screen-free times such as meals, homework and bedtime, and have adults follow the plan too.",
+    "category": "digital",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "calmer_screens",
+      "easier_transitions",
+      "better_cooperation"
+    ],
+    "recommendedWhen": [
+      "screen_stopping_conflict"
+    ],
+    "cluster": "screen_transition",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Agree on screen-free times with your child",
+        "subtitle": "Include meals, homework and bedtime in the family rules",
+        "description": "Decide together when screens will be put away, such as during meals, homework and before bed. Explain the family rules and follow them as adults too.",
+        "sources": [
+          "https://www.healthychildren.org/English/family-life/Media/Pages/How-to-Make-a-Family-Media-Use-Plan.aspx"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Agree on screen-use rules with your teen",
+        "subtitle": "Make room for their interests while protecting sleep and schoolwork",
+        "description": "Listen to how your teen likes to use screens, then agree on limits and screen-free times. Include meals, schoolwork and sleep in the plan.",
+        "sources": [
+          "https://www.healthychildren.org/English/family-life/Media/Pages/How-to-Make-a-Family-Media-Use-Plan.aspx"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Review screen-use rules with your teen",
+        "subtitle": "Adjust rules that are not helping them balance daily life",
+        "description": "Ask how the current rules fit your teen’s responsibilities, sleep and relationships. Discuss what is working and agree on changes where needed.",
+        "sources": [
+          "https://www.healthychildren.org/English/family-life/Media/Pages/How-to-Make-a-Family-Media-Use-Plan.aspx"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_teen_talk_about_online",
+    "title": "Point out advertisements while watching online content with your child",
+    "subtitle": "Explain when a video or influencer is promoting something",
+    "description": "When viewing content together, help your child distinguish advertising, edited material and an influencer’s promotional message.",
+    "category": "digital",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "calmer_screens"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_correct_body_part_names",
+    "title": "Use correct body-part names when talking with your child",
+    "subtitle": "Answer their questions calmly in words they understand",
+    "description": "Use correct anatomical terms calmly when discussing the body or answering your child’s questions.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_check_before_going",
+    "title": "Check your child’s plans before they go out",
+    "subtitle": "Agree who they will be with and when they will check in",
+    "description": "Agree where your child is going, who they will be with, and when and how they will check in.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_seatbelt_check",
+    "title": "Check your child’s car seat, booster or seatbelt before every trip",
+    "subtitle": "Use the restraint that fits their age and size",
+    "description": "Follow the seat and vehicle instructions. Use a rear-facing seat until its size limit, then a harnessed forward-facing seat, then a booster until the belt fits properly. Keep children under 13 in the back seat.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "event_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_helmet_before_wheels",
+    "title": "Check your child’s helmet before each bike or scooter ride",
+    "subtitle": "Make sure it fits and the straps are fastened",
+    "description": "Use an age-appropriate, certified helmet for cycling or a non-motorised scooter. Check fit, condition and fastening before riding.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "event_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_dont_share_passwords",
+    "title": "Set up privacy controls with your child on a new account",
+    "subtitle": "Check contact settings, reporting tools and purchase permissions",
+    "description": "When an age-appropriate account is created, use secure privacy settings and discuss who can contact them, reporting tools and purchase permissions. Explain why passwords should not be shared with friends.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "environment",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "new_online_account"
+    ]
+  },
+  {
+    "id": "habit_pause_before_photo",
+    "title": "Teach your child to ask permission before sharing someone’s photo",
+    "subtitle": "Model asking first and respecting a refusal",
+    "description": "Before sharing a photo or video, ask the people pictured for permission and show your child how to do the same. Explain that they should not share it if someone says no, and should remove it if that person later asks.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_tell_adult_online_message",
+    "title": "Reassure your child they can show you upsetting online messages",
+    "subtitle": "Listen calmly and help, even if they made a mistake",
+    "description": "Make clear that your child can seek help for online experiences, even after a mistake. If they disclose something upsetting, listen and help them work out the next step.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_consent_boundaries",
+    "title": "Talk with your teen about asking for and respecting consent",
+    "subtitle": "Explain that anyone can say no or change their mind",
+    "description": "Discuss asking before sexual touching, respecting a refusal and stopping if someone changes their mind or seems unsure. Agreement to one activity does not mean agreement to another.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_substances_talk",
+    "title": "Make a plan your teen can use to leave alcohol or drug situations",
+    "subtitle": "Agree on a message or code word they can send for help",
+    "description": "With your teen, practise declining an offer and agree on an exit plan, such as a code word they can text a family member.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_answer_body_question",
+    "title": "Answer your child’s puberty questions without teasing",
+    "subtitle": "Use factual, age-appropriate explanations",
+    "description": "Listen to the question and answer plainly. If you do not know, say so and find reliable information together. Let your child choose another trusted adult if they prefer.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_normalize_puberty_change",
+    "title": "Explain puberty changes before your child experiences them",
+    "subtitle": "Ask what they already know and correct misunderstandings",
+    "description": "Discuss changes such as body hair, a changing voice or periods in simple, factual language. Explain that timing varies; ask a healthcare professional about concerns over unusually early or delayed development.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_hygiene_supplies_stocked",
+    "title": "Check that your teen has the toiletries they need",
+    "subtitle": "Keep washing and personal-care products accessible",
+    "description": "Ask privately whether your teen needs soap, deodorant, skin-care or menstrual products, and make suitable supplies available.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "weekly",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "minAge": 11
+  },
+  {
+    "id": "habit_normalize_menstruation",
+    "title": "Explain periods and help your child pack spare menstrual products",
+    "subtitle": "Prepare before their first period",
+    "description": "Talk about periods before they begin, and help your child keep spare menstrual products and underwear somewhere accessible.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "period_preparation"
+    ]
+  },
+  {
+    "id": "habit_replace_threat_with_boundary",
+    "title": "Explain a rule and its consequence to your child",
+    "subtitle": "Give them a chance to respond, then follow through calmly",
+    "description": "State the rule and a manageable consequence. Give your child a chance to change the behaviour and follow through calmly if necessary.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "better_cooperation",
+      "less_conflict"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_apologize_out_loud",
+    "title": "Apologise to your child after shouting or treating them unfairly",
+    "subtitle": "Own your behaviour and explain what you will do differently",
+    "description": "When you make a parenting mistake, acknowledge it, apologise without shifting blame, and explain how you intend to do better.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_love_you_no_performance",
+    "title": "Tell your child you love them even when they make a mistake",
+    "subtitle": "Keep affection separate from achievement",
+    "description": "Let your child know they are loved through words and affection, including when they have made a mistake.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [
+      "frequent_yelling"
+    ],
+    "minAge": 6,
+    "maxAge": 10
+  },
+  {
+    "id": "habit_teen_give_privacy",
+    "title": "Knock and wait before entering your teen’s room",
+    "subtitle": "Respect everyday privacy",
+    "description": "Knock before entering and ask before looking through personal belongings. Discuss privacy expectations together.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_two_acceptable_choices",
+    "title": "Let your toddler choose between two options you can accept",
+    "subtitle": "Use simple choices such as which shirt to wear",
+    "description": "Offer two suitable options and give your toddler time to choose. Use choices for decisions they can make.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Morning",
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "easier_transitions",
+      "less_conflict"
+    ],
+    "cluster": "transition_support"
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_no_renegotiate_boundary",
+    "title": "Agree on household rules with your teen",
+    "subtitle": "Discuss expectations and consequences together",
+    "description": "Involve your teenager in setting family rules and the consequences of breaking them.",
+    "category": "behaviour",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "id": "habit_redirect_early_frustration",
+    "title": "Offer a different activity when your child starts getting frustrated",
+    "subtitle": "Redirect early, before the situation escalates",
+    "description": "When you notice restlessness or frustration building, suggest a change of activity. If your child has hurt someone or is already overwhelmed, address safety and help them settle first.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [
+      "transition_meltdowns"
+    ],
+    "cluster": "early_frustration_support",
+    "minAge": 2,
+    "maxAge": 8
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_no_punish_while_angry",
+    "title": "Pause before responding when you feel angry with your child",
+    "subtitle": "Take slow breaths while keeping your child safely supervised",
+    "description": "When your anger rises, pause and breathe slowly before responding. Keep your child safely supervised during the pause.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_keep_promises_to_child",
+    "title": "Follow through on a promise you make to your child",
+    "subtitle": "Promise only what you can realistically do",
+    "description": "When you agree to do something with or for your child, follow through. Make commitments you can keep.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "better_talk"
+    ],
+    "cluster": "parent_reliability"
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "id": "habit_visible_checklist",
+    "title": "Make a morning checklist your child can follow",
+    "subtitle": "Use words or pictures and let them tick off each step",
+    "description": "List the steps of getting ready together. Let your child mark each step as it is finished, with help as needed.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to follow their morning checklist",
+        "subtitle": "Check missed steps together after they have finished",
+        "description": "Remind your child to tick off each getting-ready task as they complete it. Once they have finished, check the list together and go over anything missed.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Encourage your teen to use their own morning reminders",
+        "subtitle": "Let them choose a checklist or reminder system",
+        "description": "Ask your teen to write down the steps they need to complete before leaving. Let them choose reminders that work for them and discuss any steps where they still need support.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Let your teen plan how to get ready and leave on time",
+        "subtitle": "Work backwards from the time they need to leave",
+        "description": "Agree on the departure time and let your teen work out when to start getting ready. Ask them to raise any part of the routine where they need support.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      }
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "id": "habit_work_then_break",
+    "title": "Help your child plan breaks during longer homework sessions",
+    "subtitle": "Plan work and rest around your child’s homework",
+    "description": "Help your child schedule breaks when homework needs a longer work session.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Plan homework breaks with your child",
+        "subtitle": "Agree when to pause and when to return to the task",
+        "description": "Before a longer homework session, choose break points together. Agree when your child will return to the task and remind them if needed.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Remind your teen to include breaks in longer study sessions",
+        "subtitle": "Let them plan both the break and the return to work",
+        "description": "Ask your teen where breaks fit into their study plan and when they intend to restart. Offer support if they find it difficult to return to the task.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Ask your teen whether their study breaks are helping",
+        "subtitle": "Review concentration and how easily they return to work",
+        "description": "Ask your teen to notice when their concentration drops. Discuss whether their breaks help them return to the task, and let them adjust their work-and-rest pattern.",
+        "sources": [
+          "https://kidshealth.org/en/parents/help-teen-homework.html"
+        ]
+      }
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "executive_function"
+    ],
+    "recommendedWhen": [],
+    "id": "habit_estimate_how_long",
+    "title": "Use a visual timer when your child loses track of task time",
+    "subtitle": "Show how much time is left without repeated verbal reminders",
+    "description": "For a child who struggles with time management, use a visual timer or countdown clock during a task so they can see how much time remains.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "homework_conflict",
+      "difficulty_starting_tasks"
+    ],
+    "id": "habit_pack_finished_work",
+    "title": "Help your child put finished homework in their school bag",
+    "subtitle": "Have your child pack their work before moving to another activity",
+    "description": "After your child checks that their homework is complete, have them put it in the appropriate folder and school bag. Help them with this final step as needed.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to pack their finished homework",
+        "subtitle": "Use their checklist, then check the school bag together",
+        "description": "Remind your child to put completed work in their folder and school bag. Let them use their checklist before you check the bag together.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Remind your teen to pack for the next school day",
+        "subtitle": "Check tomorrow’s timetable for the materials they need",
+        "description": "Have your teen check their timetable and pack the next day’s materials. Let them choose a reminder that helps them remember to do it themselves.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Remind your teen to check that finished work is handed in",
+        "subtitle": "Track both online submissions and work taken to school",
+        "description": "Ask your teen how they keep track of work that needs submitting online or taking to school. If work is being missed, discuss a way they can record and check submissions.",
+        "sources": [
+          "https://kidshealth.org/en/parents/child-organized.html"
+        ]
+      }
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_name_the_worry",
+    "title": "Ask how your child feels about an upcoming event",
+    "subtitle": "Let them name concerns without suggesting fears",
+    "description": "Ask an open question about the event and listen. Avoid questions that assume something frightening will happen.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "anxiety",
+      "emotional_wellbeing"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_worry_vs_fact",
+    "title": "Talk through what your child could do if a worry comes true",
+    "subtitle": "Choose a practical response and someone who can help",
+    "description": "Discuss the specific worry and who or what could help if it happened. Keep the conversation focused on coping rather than guarantees.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "anxiety",
+      "emotional_wellbeing"
+    ],
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Talk with your child about what they could do if a worry comes true",
+        "subtitle": "Choose a practical step and someone they can ask for help",
+        "description": "Ask your child to name a specific situation they are worried about. Together, identify a step they could take and a trusted person they could ask for help.",
+        "sources": [
+          "https://childmind.org/article/what-to-do-and-not-do-when-children-are-anxious/"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Ask your teen how they could handle a situation they worry about",
+        "subtitle": "Discuss realistic options instead of promising it will not happen",
+        "description": "Listen to the specific worry and ask what your teen could do if it happened. Discuss practical responses without promising that everything will go a certain way.",
+        "sources": [
+          "https://childmind.org/article/what-to-do-and-not-do-when-children-are-anxious/"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Ask your teen what would help them handle a specific worry",
+        "subtitle": "Let them choose practical steps and the support they want",
+        "description": "Listen to the worry and discuss realistic ways your teen could respond. Let them choose what to try and when they would ask for more support.",
+        "sources": [
+          "https://childmind.org/article/what-to-do-and-not-do-when-children-are-anxious/"
+        ]
+      }
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_small_brave_step",
+    "title": "Help your nervous child join a group game at their own pace",
+    "subtitle": "Start with watching, then moving closer if ready",
+    "description": "Let your child observe before joining. Encourage manageable steps towards playing with others and recognise their effort. Slow down if they become overwhelmed.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "anxiety",
+      "more_confidence"
+    ],
+    "minAge": 4,
+    "maxAge": 8
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety",
+      "school_anxiety",
+      "separation_anxiety",
+      "morning_resistance"
+    ],
+    "id": "habit_rehearse_first",
+    "title": "Use the same brief goodbye when leaving your child at nursery or school",
+    "subtitle": "Explain when you will return",
+    "description": "Give your child your attention, use a familiar goodbye and explain your return using an event they understand. Follow through on the plan.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Morning",
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "anxiety",
+      "emotional_wellbeing",
+      "easier_transitions"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "siblings",
+      "conflict"
+    ],
+    "recommendedWhen": [
+      "siblings",
+      "conflict"
+    ],
+    "id": "habit_hear_each_child_first",
+    "title": "Help your children resolve a sibling argument",
+    "subtitle": "Hear each side, then discuss a solution together",
+    "description": "Hear each child’s view without interruption, help them suggest solutions and agree on a workable plan.",
+    "category": "behaviour",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict",
+      "better_cooperation"
+    ],
+    "requiredSignals": [
+      "siblings"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "siblings"
+    ],
+    "recommendedWhen": [
+      "siblings"
+    ],
+    "id": "habit_plan_sibling_turns",
+    "title": "Help your children agree on turns before using a shared game or device",
+    "subtitle": "Agree which child goes first and when turns change",
+    "description": "Help siblings agree who uses a shared item first and when turns change. Put the plan somewhere they can check.",
+    "category": "connection",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "less_conflict",
+      "closer_connection"
+    ],
+    "requiredSignals": [
+      "siblings"
+    ],
+    "cluster": "sibling_turns"
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "siblings"
+    ],
+    "recommendedWhen": [
+      "siblings"
+    ],
+    "id": "habit_notice_teamwork",
+    "title": "Tell your children what you appreciated when they helped each other",
+    "subtitle": "Name the helpful action between siblings",
+    "description": "When siblings cooperate or help each other, describe the action you appreciated so they know what worked.",
+    "category": "connection",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict",
+      "closer_connection"
+    ],
+    "cluster": "specific_praise",
+    "requiredSignals": [
+      "siblings"
+    ]
+  },
+  {
+    "id": "habit_snack_water_before_homework",
+    "title": "Choose a regular homework time that fits your child",
+    "subtitle": "Allow for a snack or play beforehand if helpful",
+    "description": "Agree on a study time that suits your child; some work better after a snack and play, while others prefer later.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "homework_conflict",
+      "transition_meltdowns"
+    ],
+    "cluster": "homework_start"
+  },
+  {
+    "id": "habit_fold_laundry_together",
+    "title": "Teach your child to help fold the clean laundry",
+    "subtitle": "Show the steps and work together",
+    "description": "Demonstrate folding suitable items and let your child help with the family laundry. Give support as they learn.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "minAge": 6,
+    "cluster": "household_contribution",
+    "ageVersions": [
+      {
+        "minAge": 9,
+        "maxAge": 12,
+        "title": "Remind your child to fold and put away their clean clothes",
+        "subtitle": "Let them finish familiar items and ask about difficult folds",
+        "description": "Remind your child to fold their clean clothes and put them in their usual places. Show them any folds they have not learned, then let them finish what they can.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      },
+      {
+        "minAge": 13,
+        "maxAge": 15,
+        "title": "Teach your teen to do a load of laundry",
+        "subtitle": "Show them how to sort clothes and use the machine safely",
+        "description": "Demonstrate sorting clothes, choosing machine settings and using laundry products safely. Let your teen practise the steps through to putting clean clothes away.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      },
+      {
+        "minAge": 16,
+        "maxAge": 18,
+        "title": "Remind your teen to keep up with their laundry",
+        "subtitle": "Let them plan washing around access to the machine",
+        "description": "Let your teen decide when to wash and put away their clothes. Agree on use of shared equipment and offer guidance for unfamiliar fabrics.",
+        "sources": [
+          "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habit_child_questions_teacher_meeting",
+    "title": "Ask what your child wants discussed at their teacher meeting",
+    "subtitle": "Take their questions and concerns with you",
+    "description": "Before a primary-school teacher meeting, ask what your child wants discussed. Take those questions along and ask how you can support learning at home.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "teacher_meeting"
+    ]
+  },
+  {
+    "id": "habit_child_savings_goal",
+    "title": "Help your child make a plan to save for something they want",
+    "subtitle": "Choose a specific goal and work out how to reach it",
+    "description": "For ages 6–9, help your child identify a specific savings goal and make a plan to reach it.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "more_confidence"
+    ],
+    "recommendedWhen": [],
+    "minAge": 6,
+    "maxAge": 9
+  }
+]

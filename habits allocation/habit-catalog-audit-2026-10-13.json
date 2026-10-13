@@ -1,0 +1,1280 @@
+{
+  "reviewedOn": "2026-10-13",
+  "inputSha256": "fcca05832dbd9a98a0a46a54c9223ddb2fec34e548683d4dfe90ef362aae9391",
+  "originalCount": 126,
+  "finalCount": 114,
+  "summary": {
+    "keep": 43,
+    "rewrite": 62,
+    "replace": 9,
+    "merge": 12
+  },
+  "review": [
+    {
+      "action": "keep",
+      "newId": "habit_same_three_step_bedtime",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_same_three_step_bedtime",
+      "oldTitle": "Brush teeth, read, then go to bed",
+      "newTitle": "Brush teeth, read, then go to bed"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_room_ready_for_sleep",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_room_ready_for_sleep",
+      "oldTitle": "Dim the bedroom lights before bed",
+      "newTitle": "Dim the bedroom lights before bed"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_screens_off_before_bed",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+      ],
+      "oldId": "habit_screens_off_before_bed",
+      "oldTitle": "Put screens away before bedtime",
+      "newTitle": "Put screens away an hour before your child’s bedtime"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_morning_outside_five",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+      ],
+      "oldId": "habit_morning_outside_five",
+      "oldTitle": "Spend time in morning daylight",
+      "newTitle": "Take your child outside in the morning daylight"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_same_wake_time",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_same_wake_time",
+      "oldTitle": "Keep bedtime and waking times regular",
+      "newTitle": "Keep bedtime and waking times regular"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_bathroom_before_bed",
+      "reason": "Put the existing bedwetting condition in the title; retain the explicit context gate.",
+      "sources": [
+        "https://www.nhs.uk/symptoms/bedwetting/"
+      ],
+      "oldId": "habit_bathroom_before_bed",
+      "oldTitle": "Use the toilet before bed",
+      "newTitle": "Remind your child to use the toilet before bed if they wet the bed"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_teen_sleep_without_lecture",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/sleep/better-sleep-settling/sleep-better-tips"
+      ],
+      "oldId": "habit_teen_sleep_without_lecture",
+      "oldTitle": "Make time for bedtime worries",
+      "newTitle": "Listen to your teen’s worries before settling for sleep"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_fruit_or_veg_with_meal",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://kidshealth.org/en/parents/myplate.html"
+      ],
+      "oldId": "habit_fruit_or_veg_with_meal",
+      "oldTitle": "Offer a variety of plant foods",
+      "newTitle": "Include fruit, vegetables and whole grains in family meals"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_child_decides_how_much",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_child_decides_how_much",
+      "oldTitle": "Let your child stop eating when full",
+      "newTitle": "Let your child stop eating when full"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_one_meal_together",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_one_meal_together",
+      "oldTitle": "Share a relaxed family meal",
+      "newTitle": "Share a relaxed family meal"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_protein_at_breakfast",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://kidshealth.org/en/parents/myplate.html"
+      ],
+      "oldId": "habit_protein_at_breakfast",
+      "oldTitle": "Offer different protein foods",
+      "newTitle": "Vary the protein foods you serve your child"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_water_not_sugary",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_water_not_sugary",
+      "oldTitle": "Offer water instead of sugary drinks",
+      "newTitle": "Offer water instead of sugary drinks"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_no_body_comments",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/development/puberty-sexual-development/puberty-helping-your-child"
+      ],
+      "oldId": "habit_no_body_comments",
+      "oldTitle": "Eat without commenting on their body",
+      "newTitle": "Avoid comparing your teen’s body with anyone else’s"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_no_good_bad_food",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_no_good_bad_food",
+      "oldTitle": "Offer new foods alongside familiar ones",
+      "newTitle": "Offer new foods alongside familiar ones"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_get_outside_today",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_get_outside_today",
+      "oldTitle": "Walk or cycle together on short trips",
+      "newTitle": "Walk or cycle together on short trips"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_active_play_under_five",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-under-five-years/"
+      ],
+      "oldId": "habit_active_play_under_five",
+      "oldTitle": "Spread active play throughout the day",
+      "newTitle": "Make time for your preschooler to run, dance and play throughout the day"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_move_hour_across_day",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+      ],
+      "oldId": "habit_move_hour_across_day",
+      "oldTitle": "Build an active week",
+      "newTitle": "Plan time for your child to play sports, cycle or dance"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_practice_physical_skill",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_practice_physical_skill",
+      "oldTitle": "Practise throwing and catching through play",
+      "newTitle": "Practise throwing and catching through play"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_free_play_outside",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/preschoolers/play-learning/play-preschooler-development/why-play-is-important"
+      ],
+      "oldId": "habit_free_play_outside",
+      "oldTitle": "Let them play freely outside",
+      "newTitle": "Let your child choose their own outdoor game"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_move_before_homework",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+      ],
+      "oldId": "habit_move_before_homework",
+      "oldTitle": "Break up long periods of sitting",
+      "newTitle": "Encourage your child to move after sitting for a long time"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_move_hour_across_day",
+      "reason": "Repeats choosing enjoyable physical activity.",
+      "oldId": "habit_hard_play_before_dinner",
+      "oldTitle": "Choose an active game your child enjoys",
+      "newTitle": "Plan time for your child to play sports, cycle or dance",
+      "sources": [
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/"
+      ]
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_brush_teeth_twice",
+      "reason": "Replace vague younger/older instructions with practical brushing guidance.",
+      "sources": [
+        "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Toothbrushing-Tips-for-Young-Children.aspx"
+      ],
+      "oldId": "habit_brush_teeth_twice",
+      "oldTitle": "Brush teeth morning and night",
+      "newTitle": "Help your child brush their teeth morning and night"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_wash_hands_coming_home",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_wash_hands_coming_home",
+      "oldTitle": "Wash hands before eating and after the toilet",
+      "newTitle": "Wash hands before eating and after the toilet"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_sunscreen_before_outdoors",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.healthychildren.org/English/safety-prevention/at-play/pages/Sun-Safety.aspx?menu=181310"
+      ],
+      "oldId": "habit_sunscreen_before_outdoors",
+      "oldTitle": "Put on sunscreen before a long time outside",
+      "newTitle": "Apply sunscreen to your child’s exposed skin before going outdoors"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_water_bottle_to_school",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.kidshealth.org/ChildrensAlabamaXML/en/kids/water.html"
+      ],
+      "oldId": "habit_water_bottle_to_school",
+      "oldTitle": "Bring a water bottle to school",
+      "newTitle": "Pack water in your child’s school bag"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_clean_clothes_after_activity",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hygiene/hygiene-for-young-people-and-teenagers/"
+      ],
+      "oldId": "habit_clean_clothes_after_activity",
+      "oldTitle": "Change into clean clothes after heavy activity",
+      "newTitle": "Help your teen change out of sweaty sports clothes"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_one_body_care_skill",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hygiene/hygiene-for-young-people-and-teenagers/"
+      ],
+      "oldId": "habit_one_body_care_skill",
+      "oldTitle": "Build a personal hygiene routine",
+      "newTitle": "Help your teen make time to wash their body each day"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_three_slow_breaths",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+      ],
+      "oldId": "habit_three_slow_breaths",
+      "oldTitle": "Practise slow breathing together",
+      "newTitle": "Practise slow breathing with your child while they are calm"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_rate_feeling",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+      ],
+      "oldId": "habit_rate_feeling",
+      "oldTitle": "Notice the early signs of anger",
+      "newTitle": "Help your child spot tense muscles or clenched fists when anger starts"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_name_feeling_before_reacting",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/eca/stories/how-communicate-effectively-your-young-child"
+      ],
+      "oldId": "habit_name_feeling_before_reacting",
+      "oldTitle": "Help your child name their feelings",
+      "newTitle": "Help your child put their feelings into words when they are upset"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_pick_calmdown",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/"
+      ],
+      "oldId": "habit_pick_calmdown",
+      "oldTitle": "Choose a strategy for when anger builds",
+      "newTitle": "Help your child choose what to do when they start feeling angry"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_say_what_you_need",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/school-age/behaviour/behaviour-management-tips-tools/helping-children-calm-down-3-8-years"
+      ],
+      "oldId": "habit_say_what_you_need",
+      "oldTitle": "Talk about what to do differently next time",
+      "newTitle": "After your child calms down, practise asking for a toy instead of hitting"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_praise_effort_or_strategy",
+      "reason": "Repeats recognising effort; remove a separate praise card.",
+      "oldId": "habit_notice_hard_feeling_handled",
+      "oldTitle": "Notice progress in handling anger",
+      "newTitle": "Tell your child exactly what you appreciated about their effort",
+      "sources": [
+        "https://www.unicef.org/parenting/mental-health/conversation-starters-6-10-years"
+      ]
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_stay_present_until_settles",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/school-age/behaviour/behaviour-management-tips-tools/helping-children-calm-down-3-8-years"
+      ],
+      "oldId": "habit_stay_present_until_settles",
+      "oldTitle": "Stay close while big feelings settle",
+      "newTitle": "Stay calmly nearby while your upset child settles"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_daily_connection_after_school",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+      ],
+      "oldId": "habit_daily_connection_after_school",
+      "oldTitle": "Spend focused time together",
+      "newTitle": "Put your phone away and spend time playing or talking with your child"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_daily_check_in",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/eca/stories/how-communicate-effectively-your-young-child"
+      ],
+      "oldId": "habit_daily_check_in",
+      "oldTitle": "Listen with your full attention",
+      "newTitle": "Let your child finish speaking, then repeat back what you understood"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_teen_conversation_no_advice",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/tough-topics/difficult-conversations-with-teens"
+      ],
+      "oldId": "habit_teen_conversation_no_advice",
+      "oldTitle": "Ask what support they want",
+      "newTitle": "Ask your teen whether they want listening or help solving a problem"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_teen_what_excited",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/parenting/mental-health/conversation-starters-6-10-years"
+      ],
+      "oldId": "habit_teen_what_excited",
+      "oldTitle": "Talk about school and friendships",
+      "newTitle": "Ask your child what they enjoyed or found difficult at school"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_one_step_then_wait",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.cdc.gov/parenting-toddlers/communication/giving-directions.html"
+      ],
+      "oldId": "habit_one_step_then_wait",
+      "oldTitle": "Give one clear instruction at a time",
+      "newTitle": "Tell your toddler one specific thing to do at a time"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_warn_before_transition",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/behaviour/encouraging-good-behaviour/good-behaviour-tips"
+      ],
+      "oldId": "habit_warn_before_transition",
+      "oldTitle": "Give a 5-minute warning",
+      "newTitle": "Warn your child five minutes before playtime ends"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_compare_solutions_with_teen",
+      "reason": "Replace an unqualified instruction to withhold help with a sourced decision-making practice.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+      ],
+      "oldId": "habit_teen_natural_consequence",
+      "oldTitle": "Let one natural consequence happen",
+      "newTitle": "Compare possible solutions with your teen before making a difficult decision"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_set_table_together",
+      "reason": "Replace an unspecified chore with a concrete task from the source’s preschool suggestions.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+      ],
+      "oldId": "habit_one_job_they_own",
+      "oldTitle": "Teach an age-appropriate household task",
+      "newTitle": "Teach your child to help set the table before meals"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_describe_toddler_play",
+      "reason": "Replace an arbitrary 20-second rule with CDC guidance on describing play.",
+      "sources": [
+        "https://www.cdc.gov/parenting-toddlers/communication/praise.html"
+      ],
+      "oldId": "habit_let_them_try_first",
+      "oldTitle": "Let them try the small problem first",
+      "newTitle": "Describe what your toddler is doing as they play"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_dress_themselves",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/health-daily-care/dressing/how-to-get-dressed"
+      ],
+      "oldId": "habit_dress_themselves",
+      "oldTitle": "Let them dress themselves",
+      "newTitle": "Help your child practise putting on their own clothes"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_clean_own_spill",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+      ],
+      "oldId": "habit_clean_own_spill",
+      "oldTitle": "Let them clean up their own spill",
+      "newTitle": "Help your child wipe up a small spill they made"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_rehearse_greeting_before_play",
+      "reason": "Replace the ambiguous question habit with a sourced social rehearsal.",
+      "sources": [
+        "https://childmind.org/article/how-to-help-anxious-kids-in-social-situations/"
+      ],
+      "oldId": "habit_order_or_ask_themselves",
+      "oldTitle": "Let them ask the question",
+      "newTitle": "Practise a greeting with your child before they meet new children"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_dirty_clothes_hamper",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+      ],
+      "oldId": "habit_dirty_clothes_hamper",
+      "oldTitle": "Put dirty clothes in the hamper",
+      "newTitle": "Teach your child to put dirty clothes in the laundry basket"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_clean_up_before_next",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_clean_up_before_next",
+      "oldTitle": "Put toys away together",
+      "newTitle": "Put toys away together"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_prepare_part_of_meal",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_prepare_part_of_meal",
+      "oldTitle": "Let your child help measure ingredients while you cook",
+      "newTitle": "Let your child help measure ingredients while you cook"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_reset_room_five",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_reset_room_five",
+      "oldTitle": "Agree who does each household job",
+      "newTitle": "Agree who does each household job"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_clear_own_plate",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+      ],
+      "oldId": "habit_clear_own_plate",
+      "oldTitle": "Child clears their own plate",
+      "newTitle": "Let your child help clear their plate after a meal"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_thank_someone_for_helping",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.apa.org/topics/parenting/cultivating-gratitude-kids?trk=public_post_reshare-text"
+      ],
+      "oldId": "habit_thank_someone_for_helping",
+      "oldTitle": "Thank someone for helping",
+      "newTitle": "Let your child hear you thank someone for helping"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_teen_money_this_week",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_teen_money_this_week",
+      "oldTitle": "Compare prices and features with your teen before choosing a phone plan",
+      "newTitle": "Compare prices and features with your teen before choosing a phone plan"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_read_ten_minutes",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_read_ten_minutes",
+      "oldTitle": "Invite your child to describe the pictures while you read together",
+      "newTitle": "Invite your child to describe the pictures while you read together"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_why_do_you_think",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_why_do_you_think",
+      "oldTitle": "Explore the answer together when your child asks how something works",
+      "newTitle": "Explore the answer together when your child asks how something works"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_ten_minutes_creating",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_ten_minutes_creating",
+      "oldTitle": "Let your child draw or paint without copying a sample",
+      "newTitle": "Let your child draw or paint without copying a sample"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_let_boredom_happen",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_let_boredom_happen",
+      "oldTitle": "Create a list together of things your child can do when bored",
+      "newTitle": "Create a list together of things your child can do when bored"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_solve_everyday_problem",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_solve_everyday_problem",
+      "oldTitle": "Meet as a family each week to discuss plans and concerns",
+      "newTitle": "Meet as a family each week to discuss plans and concerns"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_explore_something_new",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_explore_something_new",
+      "oldTitle": "Help your child draw or photograph something they noticed in nature",
+      "newTitle": "Help your child draw or photograph something they noticed in nature"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_prepare_tomorrow_tonight",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://kidshealth.org/en/parents/child-organized.html"
+      ],
+      "oldId": "habit_prepare_tomorrow_tonight",
+      "oldTitle": "Check upcoming work and deadlines",
+      "newTitle": "Check your child’s homework deadlines together"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_homework_spot_ready",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_homework_spot_ready",
+      "oldTitle": "Set up a quiet homework space",
+      "newTitle": "Set up a quiet homework space"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_five_minute_first_task",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_five_minute_first_task",
+      "oldTitle": "Divide a large assignment into smaller parts",
+      "newTitle": "Divide a large assignment into smaller parts"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_model_reading_for_pleasure",
+      "reason": "Remove an ambiguous compliment card and add the source’s separate reading-role-model practice.",
+      "sources": [
+        "https://kidshealth.org/en/parents/homework.html"
+      ],
+      "oldId": "habit_one_genuine_compliment",
+      "oldTitle": "Give one genuine compliment",
+      "newTitle": "Let your child see you reading a book for enjoyment"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_invite_someone_to_join",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_invite_someone_to_join",
+      "oldTitle": "Help your child invite a friend over to play",
+      "newTitle": "Help your child invite a friend over to play"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_take_turns",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_take_turns",
+      "oldTitle": "Play a card or board game to teach your child to take turns",
+      "newTitle": "Play a card or board game to teach your child to take turns"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_practice_no_thank_you",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/"
+      ],
+      "oldId": "habit_practice_no_thank_you",
+      "oldTitle": "Respect a child’s right to say no to touch",
+      "newTitle": "Respect your child’s choice to refuse a hug or kiss"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_look_for_someone_left_out",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_look_for_someone_left_out",
+      "oldTitle": "Practise how your child can leave bullying and get adult help",
+      "newTitle": "Practise how your child can leave bullying and get adult help"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_repair_after_hurting",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_repair_after_hurting",
+      "oldTitle": "Help your child repair the harm if they have bullied someone",
+      "newTitle": "Help your child repair the harm if they have bullied someone"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_ask_before_touching",
+      "reason": "Separate permission to borrow possessions from the existing body-consent habit.",
+      "sources": [
+        "https://raisingchildren.net.au/school-age/behaviour/friends-siblings/preventing-fights"
+      ],
+      "oldId": "habit_ask_before_touching",
+      "oldTitle": "Ask before touching or borrowing",
+      "newTitle": "Teach your child to ask before borrowing someone else’s belongings"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_disagree_respectfully",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+      ],
+      "oldId": "habit_disagree_respectfully",
+      "oldTitle": "Practice disagreeing without insults",
+      "newTitle": "Let your teen explain their view before you respond in a disagreement"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_tell_when_boundary_crossed",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/"
+      ],
+      "oldId": "habit_tell_when_boundary_crossed",
+      "oldTitle": "Tell a trusted adult about worrying touch or secrets",
+      "newTitle": "Teach your child to tell a trusted adult about touch or secrets that worry them"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_helpful_without_asked",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_helpful_without_asked",
+      "oldTitle": "Volunteer with your child in an activity suitable for their age",
+      "newTitle": "Volunteer with your child in an activity suitable for their age"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_teen_know_one_friend",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/family-relationships/privacy-trust-teen-years"
+      ],
+      "oldId": "habit_teen_know_one_friend",
+      "oldTitle": "Get to know your teen’s friends",
+      "newTitle": "Invite your teen’s friends over so you can get to know them"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_teen_relationships_no_lecture",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_teen_relationships_no_lecture",
+      "oldTitle": "Talk with your teen about caring behaviour and controlling behaviour in relationships",
+      "newTitle": "Talk with your teen about caring behaviour and controlling behaviour in relationships"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_praise_effort_or_strategy",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/parenting/mental-health/conversation-starters-6-10-years"
+      ],
+      "oldId": "habit_praise_effort_or_strategy",
+      "oldTitle": "Praise a specific effort or action",
+      "newTitle": "Tell your child exactly what you appreciated about their effort"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_leave_mistake_unfixed",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_leave_mistake_unfixed",
+      "oldTitle": "Let your child do their own homework",
+      "newTitle": "Let your child do their own homework"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_compare_solutions_with_teen",
+      "reason": "The new decision-making practice already includes reviewing what worked; remove the context-free reflection prompt.",
+      "oldId": "habit_ask_what_they_learned",
+      "oldTitle": "Ask “What did you learn?” after something hard",
+      "newTitle": "Compare possible solutions with your teen before making a difficult decision",
+      "sources": [
+        "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+      ]
+    },
+    {
+      "action": "keep",
+      "newId": "habit_let_them_teach_you",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_let_them_teach_you",
+      "oldTitle": "Ask your child to show you the apps and games they use",
+      "newTitle": "Ask your child to show you the apps and games they use"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_decide_screen_stopping_point",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_decide_screen_stopping_point",
+      "oldTitle": "Agree on screen-use limits together",
+      "newTitle": "Agree on screen-use limits together"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_teen_talk_about_online",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_teen_talk_about_online",
+      "oldTitle": "Point out advertisements while watching online content with your child",
+      "newTitle": "Point out advertisements while watching online content with your child"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_correct_body_part_names",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.nspcc.org.uk/advice-for-families/pants-underwear-rule/"
+      ],
+      "oldId": "habit_correct_body_part_names",
+      "oldTitle": "Use the correct names for body parts",
+      "newTitle": "Use anatomical names when answering your child’s questions about their body"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_check_before_going",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/family-relationships/privacy-trust-teen-years"
+      ],
+      "oldId": "habit_check_before_going",
+      "oldTitle": "Agree on a check-in plan before going out",
+      "newTitle": "Agree where your child is going and when they will check in"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_seatbelt_check",
+      "reason": "Correct the implication that an adult seatbelt is sufficient at every age.",
+      "sources": [
+        "https://www.cdc.gov/child-passenger-safety/prevention/"
+      ],
+      "oldId": "habit_seatbelt_check",
+      "oldTitle": "Seatbelt check before driving",
+      "newTitle": "Check your child’s car seat, booster or seatbelt before every trip"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_helmet_before_wheels",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.cdc.gov/heads-up/safety/index.html/"
+      ],
+      "oldId": "habit_helmet_before_wheels",
+      "oldTitle": "Helmet on before bike or scooter",
+      "newTitle": "Check your child’s helmet fit and straps before each bike or scooter ride"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_dont_share_passwords",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_dont_share_passwords",
+      "oldTitle": "Set up privacy and messaging controls before your child uses a new account",
+      "newTitle": "Set up privacy and messaging controls before your child uses a new account"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_pause_before_photo",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_pause_before_photo",
+      "oldTitle": "Ask permission before sharing someone’s photo",
+      "newTitle": "Ask permission before sharing someone’s photo"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_tell_adult_online_message",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.esafety.gov.au/parents/issues-and-advice/protecting-children-from-sexual-abuse-online"
+      ],
+      "oldId": "habit_tell_adult_online_message",
+      "oldTitle": "Tell an adult about a disturbing message",
+      "newTitle": "Tell your child they can show you upsetting online messages without getting blamed"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_teen_consent_boundaries",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/tough-topics/getting-giving-sexual-consent-talking-with-teens"
+      ],
+      "oldId": "habit_teen_consent_boundaries",
+      "oldTitle": "Talk about consent and boundaries",
+      "newTitle": "Explain to your teen that consent must be freely given and can change"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_teen_substances_talk",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_teen_substances_talk",
+      "oldTitle": "Agree how your teen can contact you to leave a situation involving alcohol or drugs",
+      "newTitle": "Agree how your teen can contact you to leave a situation involving alcohol or drugs"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_answer_body_question",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/tough-topics/difficult-conversations-with-teens"
+      ],
+      "oldId": "habit_answer_body_question",
+      "oldTitle": "Answer one body question honestly",
+      "newTitle": "Answer your child’s puberty questions without teasing"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_normalize_puberty_change",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/development/puberty-sexual-development/puberty-helping-your-child",
+        "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+      ],
+      "oldId": "habit_normalize_puberty_change",
+      "oldTitle": "Normalize one puberty change",
+      "newTitle": "Explain puberty changes before your child experiences them"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_hygiene_supplies_stocked",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hygiene/hygiene-for-young-people-and-teenagers/"
+      ],
+      "oldId": "habit_hygiene_supplies_stocked",
+      "oldTitle": "Keep personal-care supplies available",
+      "newTitle": "Check that your teen has the toiletries they need"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_normalize_menstruation",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hygiene/hygiene-for-young-people-and-teenagers/"
+      ],
+      "oldId": "habit_normalize_menstruation",
+      "oldTitle": "Prepare for periods together",
+      "newTitle": "Explain periods and help your child pack spare menstrual products"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_answer_body_question",
+      "reason": "Duplicates answering puberty questions calmly.",
+      "oldId": "habit_awkward_question_no_teasing",
+      "oldTitle": "Let them ask an awkward question without teasing",
+      "newTitle": "Answer your child’s puberty questions without teasing",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/tough-topics/difficult-conversations-with-teens"
+      ]
+    },
+    {
+      "action": "merge",
+      "newId": "habit_no_body_comments",
+      "reason": "Consolidate body comparison and appearance commentary into one practice.",
+      "oldId": "habit_no_attractiveness_comments",
+      "oldTitle": "Talk about body changes without commenting on looks",
+      "newTitle": "Avoid comparing your teen’s body with anyone else’s",
+      "sources": [
+        "https://raisingchildren.net.au/teens/development/puberty-sexual-development/puberty-helping-your-child"
+      ]
+    },
+    {
+      "action": "merge",
+      "newId": "habit_normalize_puberty_change",
+      "reason": "Merge puberty timing into the factual conversation; remove the blanket claim that all early or late development is normal.",
+      "oldId": "habit_bodies_develop_different_speeds",
+      "oldTitle": "Remind them bodies develop at different speeds",
+      "newTitle": "Explain puberty changes before your child experiences them",
+      "sources": [
+        "https://raisingchildren.net.au/teens/development/puberty-sexual-development/puberty-helping-your-child",
+        "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+      ]
+    },
+    {
+      "action": "merge",
+      "newId": "habit_one_step_then_wait",
+      "reason": "Duplicates clear toddler instructions for the same age group.",
+      "oldId": "habit_one_instruction_no_yelling",
+      "oldTitle": "Say clearly what you want your child to do",
+      "newTitle": "Tell your toddler one specific thing to do at a time",
+      "sources": [
+        "https://www.cdc.gov/parenting-toddlers/communication/giving-directions.html"
+      ]
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_replace_threat_with_boundary",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+      ],
+      "oldId": "habit_replace_threat_with_boundary",
+      "oldTitle": "Explain consequences calmly and follow through",
+      "newTitle": "Explain what will happen if a rule is broken, then follow through calmly"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_apologize_out_loud",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_apologize_out_loud",
+      "oldTitle": "Apologise to your child after shouting or treating them unfairly",
+      "newTitle": "Apologise to your child after shouting or treating them unfairly"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_love_you_no_performance",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/parenting/mental-health/conversation-starters-6-10-years"
+      ],
+      "oldId": "habit_love_you_no_performance",
+      "oldTitle": "Express love without tying it to achievement",
+      "newTitle": "Tell your child you love them even when they make a mistake"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_teen_give_privacy",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/communicating-relationships/family-relationships/privacy-trust-teen-years"
+      ],
+      "oldId": "habit_teen_give_privacy",
+      "oldTitle": "Respect your teen’s everyday privacy",
+      "newTitle": "Knock and wait before entering your teen’s room"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_two_acceptable_choices",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.cdc.gov/parenting-toddlers/communication/giving-directions.html"
+      ],
+      "oldId": "habit_two_acceptable_choices",
+      "oldTitle": "Offer two acceptable choices",
+      "newTitle": "Let your toddler choose between two options you can accept"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_no_renegotiate_boundary",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_no_renegotiate_boundary",
+      "oldTitle": "Agree on household rules with your teen",
+      "newTitle": "Agree on household rules with your teen"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_redirect_early_frustration",
+      "reason": "Remove unexplained When–Then jargon; replace with published guidance on early redirection.",
+      "sources": [
+        "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way",
+        "https://raisingchildren.net.au/school-age/behaviour/behaviour-management-tips-tools/distraction_or_redirecting_child_behaviour"
+      ],
+      "oldId": "habit_when_then",
+      "oldTitle": "Use “When → Then”",
+      "newTitle": "Offer a different activity when your child starts getting frustrated"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_replace_threat_with_boundary",
+      "reason": "Avoid two cards for explaining and following through on consequences.",
+      "oldId": "habit_related_consequence",
+      "oldTitle": "Keep the consequence related to the behavior",
+      "newTitle": "Explain what will happen if a rule is broken, then follow through calmly",
+      "sources": [
+        "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+      ]
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_no_punish_while_angry",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.unicef.org/parenting/child-care/how-discipline-your-child-smart-and-healthy-way"
+      ],
+      "oldId": "habit_no_punish_while_angry",
+      "oldTitle": "Pause before responding when you are angry",
+      "newTitle": "Take slow breaths before responding when you feel angry with your child"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_keep_promises_to_child",
+      "reason": "Replace a vague scripted redo with the source’s distinct parental reliability practice.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/behaviour/encouraging-good-behaviour/good-behaviour-tips"
+      ],
+      "oldId": "habit_one_respectful_redo",
+      "oldTitle": "Give one respectful redo",
+      "newTitle": "Follow through on a promise you make to your child"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_homework_spot_ready",
+      "reason": "Homework workspace already includes collecting materials.",
+      "oldId": "habit_easiest_next_action",
+      "oldTitle": "Gather what is needed before starting a task",
+      "newTitle": "Set up a quiet homework space",
+      "sources": []
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_visible_checklist",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://kidshealth.org/en/parents/child-organized.html"
+      ],
+      "oldId": "habit_visible_checklist",
+      "oldTitle": "Use a checklist for a multi-step task",
+      "newTitle": "Make a morning checklist with your child and tick off completed steps"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_work_then_break",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_work_then_break",
+      "oldTitle": "Plan breaks during longer homework sessions",
+      "newTitle": "Plan breaks during longer homework sessions"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_estimate_how_long",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_estimate_how_long",
+      "oldTitle": "Use a visual timer to show your child how much task time remains",
+      "newTitle": "Use a visual timer to show your child how much task time remains"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_pack_finished_work",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_pack_finished_work",
+      "oldTitle": "Put finished homework in the school bag",
+      "newTitle": "Put finished homework in the school bag"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_name_the_worry",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://childmind.org/article/what-to-do-and-not-do-when-children-are-anxious/"
+      ],
+      "oldId": "habit_name_the_worry",
+      "oldTitle": "Ask an open question about a worry",
+      "newTitle": "Ask how your child feels about an upcoming event"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_worry_vs_fact",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://childmind.org/article/what-to-do-and-not-do-when-children-are-anxious/"
+      ],
+      "oldId": "habit_worry_vs_fact",
+      "oldTitle": "Talk through a plan for a feared situation",
+      "newTitle": "Help your child plan what to do if a situation they worry about happens"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_small_brave_step",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://childmind.org/article/how-to-help-anxious-kids-in-social-situations/"
+      ],
+      "oldId": "habit_small_brave_step",
+      "oldTitle": "Do one small brave step",
+      "newTitle": "Help your nervous child join a group game at their own pace"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_worry_vs_fact",
+      "reason": "Consolidate reassurance and practical support into the worry-planning conversation instead of another abstract support card.",
+      "oldId": "habit_dont_remove_every_discomfort",
+      "oldTitle": "Offer reassurance without promising certainty",
+      "newTitle": "Help your child plan what to do if a situation they worry about happens",
+      "sources": [
+        "https://childmind.org/article/what-to-do-and-not-do-when-children-are-anxious/"
+      ]
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_rehearse_first",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
+      ],
+      "oldId": "habit_rehearse_first",
+      "oldTitle": "Use a short, predictable goodbye",
+      "newTitle": "Use the same brief goodbye when leaving your child at nursery or school"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_small_brave_step",
+      "reason": "Recognising effort is part of the gradual social participation practice; remove an extra praise card.",
+      "oldId": "habit_name_bravery_after",
+      "oldTitle": "Recognise effort in facing a worry",
+      "newTitle": "Help your nervous child join a group game at their own pace",
+      "sources": [
+        "https://childmind.org/article/how-to-help-anxious-kids-in-social-situations/"
+      ]
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_hear_each_child_first",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/teens/behaviour/encouraging-good-behaviour/problem-solving-steps"
+      ],
+      "oldId": "habit_hear_each_child_first",
+      "oldTitle": "Help siblings work towards an agreement",
+      "newTitle": "Help arguing siblings take turns explaining the problem and agree on a solution"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_plan_sibling_turns",
+      "reason": "Replace an absence-of-behaviour checkbox with a concrete source-backed sibling routine.",
+      "sources": [
+        "https://raisingchildren.net.au/school-age/behaviour/friends-siblings/preventing-fights"
+      ],
+      "oldId": "habit_dont_compare_siblings",
+      "oldTitle": "Don’t compare siblings",
+      "newTitle": "Agree on turns before siblings use a shared game or device"
+    },
+    {
+      "action": "rewrite",
+      "newId": "habit_notice_teamwork",
+      "reason": "Make the parent action and situation explicit.",
+      "sources": [
+        "https://raisingchildren.net.au/school-age/behaviour/friends-siblings/preventing-fights"
+      ],
+      "oldId": "habit_notice_teamwork",
+      "oldTitle": "Notice teamwork between siblings",
+      "newTitle": "Tell your children what you appreciated when they helped each other"
+    },
+    {
+      "action": "merge",
+      "newId": "habit_visible_checklist",
+      "reason": "Duplicates existing dressing, toothbrushing, school-bag and morning checklist practices.",
+      "oldId": "habit_own_one_morning_step",
+      "oldTitle": "Let them own one morning step",
+      "newTitle": "Make a morning checklist with your child and tick off completed steps",
+      "sources": [
+        "https://kidshealth.org/en/parents/child-organized.html"
+      ]
+    },
+    {
+      "action": "keep",
+      "newId": "habit_snack_water_before_homework",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_snack_water_before_homework",
+      "oldTitle": "Choose a regular homework time that fits your child",
+      "newTitle": "Choose a regular homework time that fits your child"
+    },
+    {
+      "action": "replace",
+      "newId": "habit_fold_laundry_together",
+      "reason": "Replace an unspecified work-before-leisure requirement with a named household contribution.",
+      "sources": [
+        "https://raisingchildren.net.au/toddlers/family-life/routines-rituals/chores-for-children"
+      ],
+      "oldId": "habit_one_responsibility_before_leisure",
+      "oldTitle": "Finish one small responsibility before leisure",
+      "newTitle": "Teach your child to help fold the clean laundry"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_child_questions_teacher_meeting",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_child_questions_teacher_meeting",
+      "oldTitle": "Ask your child what they want you to discuss at their teacher meeting",
+      "newTitle": "Ask your child what they want you to discuss at their teacher meeting"
+    },
+    {
+      "action": "keep",
+      "newId": "habit_child_savings_goal",
+      "reason": "Standalone action and description are clear; no replacement needed.",
+      "oldId": "habit_child_savings_goal",
+      "oldTitle": "Help your child choose something to save for and plan how to afford it",
+      "newTitle": "Help your child choose something to save for and plan how to afford it"
+    }
+  ],
+  "notes": [
+    "Source guidance is paraphrased; wording, grouping and scheduling are editorial choices.",
+    "Existing IDs are retained only for substantially the same practice. New practices receive new IDs.",
+    "Age and context eligibility are retained except where the new practice requires different limits.",
+    "Merged historical IDs are retired; old completion records are not relabelled as different habits."
+  ],
+  "backupPath": "/Users/sourav/Desktop/habitsss/habits allocation/daily-habits.before-full-audit-20261013-014158.json",
+  "appliedSha256": "49761ed4f9e45955ffce2f4da8b78b81f45f084ba41e34461d7f700e9f97f662"
+}

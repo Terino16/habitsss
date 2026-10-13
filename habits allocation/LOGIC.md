@@ -1,99 +1,58 @@
-# Habit allocation sandbox
+# Habit recommendations
 
-This folder is a copy of the app’s habit-allocation code. Edit it here. The live app still uses `src/features/onboarding/` and `content/daily-habits.json`. Nothing in this folder is imported by the app, and `tsconfig.json` excludes it so Expo typecheck does not compile it.
+This folder is imported by the Next.js simulator in `app/simulator/`. `plan.ts` is the draft-to-plan adapter; `app/simulator/model.ts` drives the simulator with an explicit date.
 
-A later Next.js playground can import these files, feed mock children through onboarding answers, and print the habits each child gets. No UI lives here yet.
+## Selection order
 
-## Files
+1. Validate age (whole years, 2–18) and take up to three unique, ordered goals. Empty goals produce no plan.
+2. Check the catalog age band, optional exact `minAge`/`maxAge`, and every `requiredSignals` condition. These are hard requirements in profiles, daily habits, skills and fallback selection. Unknown context does not satisfy a requirement.
+3. Rank relevant routines and a small set of general daily foundations. Keep at most 35 in the profile, without a minimum-fill requirement.
+4. Fill daypart roles from habits due on the selected date. Apply ID/title uniqueness and cluster limits across the day. A fallback can widen the pool but cannot relax eligibility or scheduling.
+5. Only hands-on guidance adds extras. Choose extras sequentially so an all-day habit cannot appear in multiple slots, and retain its selected daypart.
+6. Offer up to three contextual skills separately. Keep the highest-ranked concern-specific skill visible, then rotate remaining peers among the top eight candidates within 20 points of the best score using week and child key.
 
-| File | Role |
-| --- | --- |
-| `daily-habits.json` | Catalog. Every habit the allocator can pick. |
-| `habit-signals.ts` | Turns onboarding answers into signal strings. |
-| `assign-habits.ts` | Picks the profile, daily anchors, extras, and skills. |
-| `plan.ts` | Onboarding draft → one plan per child. Calls the two files above. |
-| `types.ts` | Draft, goals, guidance, marks, and assigned-habit types. |
-| `content.ts` | Goal, pain, niche, and help copy that `plan.ts` wraps around the habits. |
-| `copy.ts` | Child name and age phrasing used by `plan.ts`. |
+## Goals and context
 
-## How a child becomes a habit list
+The first three goals have weights 100, 80 and 65. A habit matches through its category, goal tags, or relevant focus-support tags. Additional scoring rewards matching explicit concerns, foundation priority and time fit. Diversity penalties spread categories and parent/child targets; cluster caps are hard limits (normally one per day, two movement items for focus plans).
 
-1. Onboarding stores a `Draft`: children (name, age, optional per-child concerns), family goals, pain, niche, guidance, and habit marks.
-2. `buildPlan` in `plan.ts` walks each child with an age.
-3. Goals come from that child’s concerns when present, otherwise from the family goals.
-4. Guidance is the child’s level, otherwise the family level. Missing guidance becomes `balanced`.
-5. `profileSignals` builds a set of strings from the primary goal, the pain id, and the niche id. Examples: `bedtime_resistance`, `picky_eating`, `adhd`.
-6. `assignHabits` receives `{ age, goals, signals, guidance, marks, childKey }`.
+`concern-relevance.ts` maps every displayed pain and niche to ordered IDs in the current catalog. `profileSignals` preserves the exact choices as `pain:<goal>:<answer>` and `niche:<goal>:<answer>`, alongside broad signals. A direct pain match adds 220/200/180/160 points in mapping order; a niche match adds 70/60/50/40. This makes direct concerns stronger than generic goal relevance without forcing different habits for equivalent needs. Unrecognised answers get no specific bonus.
 
-Empty goals return an empty assignment.
+Direct matches are relevant even across category boundaries and can fill non-foundation roles in their existing daypart. Before selection, reserve cluster capacity for the stronger concern match so an earlier generic choice cannot crowd it out. All original age, context, due-date and completion checks still apply. Event-based practices remain in skills; they are not artificially scheduled as daily habits. The morning checklist is scheduled in the morning. Catalog inspection and the simulator show the matched pain label.
 
-## What `assignHabits` returns
+Some related answers legitimately share suggestions; limited age-appropriate catalog coverage can also yield overlap. Changing a family answer does not override a child with “Own answers” enabled.
 
-- `profile` — the child’s eligible pool, about 20 to 35 catalog habits.
-- `anchors` — the standing daily habits, one per role.
-- `habits` — anchors plus extras. This is the daily list.
-- `skills` — up to 3 opportunity habits, rotated by ISO week.
+Goals do not establish diagnoses or specific difficulties. Pain/niche answers generate concern signals; focus difficulties use `attention_difficulty`, not an inferred ADHD diagnosis.
 
-## Selection rules
+`profileSignals` also accepts `contextSignals`, restricted to the exported `CONTEXT_OPTIONS`. These can be supplied programmatically; the simulator does not ask a separate context question. Supported facts include siblings, bedwetting support, bullying others, period preparation, an upcoming teacher meeting, choosing a phone plan, and creating an online account. A sibling concern also supplies the sibling signal. The number of profiles alone is not used to infer family structure. `ChildDraft.contextSignals` supplies the same facts to `buildPlan`.
 
-Age bands in the catalog are `2-4y`, `5-8y`, `9-12y`, and `13-18y`. A habit must list the child’s band (or `0-1y` only when the age allows it).
+Catalog `recommendedWhen` and `tags` increase relevance; they are not hard requirements. `requiredSignals` is a separate, explicit list whose entries must all match. General one-to-one connection time does not require siblings.
 
-The profile is filled by score, then trimmed to at most 35:
+## Frequency and history
 
-- Goal match uses `GOAL_CATEGORIES` and `GOAL_TAGS`. The first goal weighs 100, the second 80, the third 65.
-- Signals match `recommendedWhen` and `tags` on the catalog habit.
-- Focus goals also boost `adhd` and `executive_function` tags.
+`daily` is eligible each day; `few_times_week`, `weekly`, `monthly`, and `seasonal` use `isHabitDue`. Opportunity/event-based items belong in skills, not scheduled daily routines. Skills are suggestions to use when the named situation arises, not proof that an event has happened.
 
-Guidance sets how many roles are filled:
+Ongoing routines remain available after repeated completion. The earlier rule retiring everything after 14 successes is no longer used in selection. Completed `one_time_learning` items are excluded using the current child's dated marks; future marks do not suppress historical plans.
 
-| Level | Roles per daypart | Daily shape |
-| --- | --- | --- |
-| `light` | 2 | 6 anchors |
-| `balanced` | 3 | 9 anchors |
-| `hands_on` | 3, plus one extra per daypart | 9 anchors and up to 3 extras |
+Guidance limits are upper bounds:
 
-Roles and dayparts:
+| Guidance | Morning | Afternoon | Evening |
+| --- | ---: | ---: | ---: |
+| Light | 2 | 2 | 2 |
+| Balanced | 3 | 3 | 3 |
+| Hands-on | 4 | 4 | 4 |
 
-- Morning: `morning_health`, `morning_independence`, `morning_goal`
-- Afternoon: `afternoon_regulation`, `afternoon_movement`, `afternoon_skill`
-- Evening: `evening_family`, `evening_prep`, `evening_connection`
+Plans can be shorter when no suitable habit fits. Never fill a quota with an age-inappropriate, context-inappropriate, duplicate or off-schedule habit.
 
-`light` keeps the first and last role in each daypart. Each role prefers catalog categories listed in `ROLE_CATEGORIES`. Scoring also spreads clusters, categories, and parent vs child targets so one cluster does not take the whole day. A habit already marked often enough for that child is skipped (`isHabitGraduated`). If the profile has no match, the allocator falls back to the wider catalog.
+## Inspection and validation
 
-Skills are catalog habits flagged as opportunities, ranked with the same score, then rotated by week so the same three do not stick forever.
+`inspectCatalog` uses the same age, context and relevance rules and accepts the selected date. It exposes profile and skill eligibility plus rejection reasons; adjacent-age fallback is disabled. A profile is a candidate pool, so a profile member need not be due today.
 
-## Mock children
+Run `npm test` for UI-option mapping coverage, pain-sensitive recommendations, preserved weekly priority, and regression coverage across ages, goals, guidance levels, dates, confirmed context, uniqueness, cluster caps, history, and simulator input resolution. `npx tsc --noEmit` and `npm run lint` check integration. The tests use the existing TypeScript compiler in memory and Node's test runner; no additional test dependency is needed.
 
-When the Next.js runner exists, a fixture only needs what `buildPlan` reads:
+The catalog still contains qualitative metadata and broad age bands for practices without explicit source limits. This is a deterministic rules-based recommender, not a clinical assessment. Personal dislike, available time, and recurrence of triggering events are not yet collected.
 
-```ts
-const draft = {
-  audience: 'child',
-  children: [
-    {
-      id: 'maya',
-      name: 'Maya',
-      age: 7,
-      concerns: {
-        goals: ['sleep', 'behaviour'],
-        painId: 'long',
-        intensity: 'daily',
-        helpStyles: ['routines'],
-        nicheId: 'wired',
-        guidance: 'balanced',
-      },
-    },
-  ],
-  goals: ['sleep'],
-  painId: null,
-  intensity: null,
-  helpStyles: [],
-  nicheId: null,
-  guidance: 'balanced',
-  habitMarks: {},
-};
-```
+## Age progression
 
-`buildPlan(draft)` returns `children[].habits`, `.anchors`, `.skills`, and `.profile`. To test the allocator alone, call `assignHabits` with age, goals, `profileSignals(...)`, guidance, marks, and a stable `childKey`.
+`ageVersions` in the JSON supplies a complete title, subtitle and description for an inclusive age range. Twenty recurring practices have versions for 9–12, 13–15 and 16–18; younger children use the base copy. Both assignment and catalog inspection resolve the same version. These are editorial defaults based on published guidance about increasing independence, not clinical developmental milestones. Support should follow ability, not birthdays alone.
 
-Change `date` on `assignHabits` to move the ISO week and see skill and extra rotation.
+A progression keeps the underlying habit ID, history, pain matching, frequency and eligibility. It cannot bypass a required context or make a teen-only habit available to a younger child. The steps increase ownership or scope (for example recipe preparation to planning and cooking a meal), rather than inflating difficulty or repeating duplicate catalog entries. Essential care and parent behaviours without a meaningful progression remain the same. Each version records its guidance URLs.

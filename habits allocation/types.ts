@@ -36,6 +36,7 @@ export type ChildDraft = {
   name: string;
   age: number | null;
   birthYear?: number | null;
+  contextSignals?: string[];
   concerns?: ChildConcerns | null;
 };
 

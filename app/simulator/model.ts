@@ -14,6 +14,7 @@ export type ChildInput = {
   name: string;
   age: number;
   own: boolean;
+  contextSignals?: string[];
   goals: GoalId[];
   painId: string;
   nicheId: string;
@@ -57,6 +58,7 @@ export function runChild(family: FamilyInput, child: ChildInput): ChildSimulatio
   const nicheId = child.own ? child.nicheId : family.nicheId;
   const signals = profileSignals({
     goals,
+    contextSignals: child.contextSignals,
     painId: goals[0] ? painId : null,
     nicheId: goals[0] ? nicheId : null,
   });
@@ -66,6 +68,7 @@ export function runChild(family: FamilyInput, child: ChildInput): ChildSimulatio
     goals,
     signals,
     guidance,
+    childKey: child.key,
     date,
   });
 
@@ -81,6 +84,6 @@ export function runChild(family: FamilyInput, child: ChildInput): ChildSimulatio
     signals: [...signals].sort(),
     week: isoWeek(date),
     assignment,
-    catalog: inspectCatalog({ age: child.age, goals, signals }),
+    catalog: inspectCatalog({ age: child.age, goals, signals, date }),
   };
 }

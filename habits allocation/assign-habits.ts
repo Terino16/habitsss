@@ -1,3 +1,4 @@
+import { concernScore, concernMatches } from './concern-relevance';
 import catalogJson from './daily-habits.json';
 
 import type {
@@ -12,7 +13,6 @@ import type {
   HabitTime,
 } from './types';
 
-const AGE_BANDS = ['0-1y', '2-4y', '5-8y', '9-12y', '13-18y'] as const;
 type AgeVariantBand = '2-4y' | '5-8y' | '9-12y' | '13-18y';
 
 export const DAYPARTS = ['Morning', 'Afternoon', 'Evening'] as const;
@@ -44,7 +44,7 @@ const GOAL_TAGS: Record<GoalId, readonly string[]> = {
   connection: ['closer_connection'],
 };
 
-const FOCUS_TAGS = new Set(['adhd', 'executive_function']);
+const FOCUS_TAGS = new Set(['attention_difficulty', 'executive_function']);
 const FOUNDATION_ROLES = new Set([
   'morning_health',
   'afternoon_regulation',
@@ -84,7 +84,6 @@ const ROLE_DAYPART: Record<string, Daypart> = {
   evening_prep: 'Evening',
   evening_connection: 'Evening',
 };
-const PROFILE_MIN = 20;
 const PROFILE_MAX = 35;
 const SKILL_COUNT = 3;
 const GOAL_WEIGHTS = [100, 80, 65];
@@ -108,7 +107,18 @@ type CatalogHabit = {
   recommendedWhen?: string[];
   prompts?: string[];
   variants?: Partial<Record<AgeVariantBand, string>>;
+  ageVersions?: {
+    minAge: number;
+    maxAge: number;
+    title: string;
+    subtitle: string;
+    description: string;
+    sources: string[];
+  }[];
   activeMonths?: number[];
+  minAge?: number;
+  maxAge?: number;
+  requiredSignals?: string[];
 };
 
 export type HabitAssignment = {
@@ -253,9 +263,13 @@ export function matchingGoals(habit: GoalMatchHabit, goals: GoalId[]) {
   return goals.filter((goal) => matchesGoal(habit, goal));
 }
 
-function resolveDescription(habit: CatalogHabit, age: number) {
-  const band = catalogAgeGroup(age);
-  return habit.variants?.[band] ?? habit.description;
+function resolveCopy(habit: CatalogHabit, age: number) {
+  const version = habit.ageVersions?.find(item => age >= item.minAge && age <= item.maxAge);
+  return {
+    title: version?.title ?? habit.title,
+    subtitle: version?.subtitle ?? habit.subtitle,
+    description: version?.description ?? habit.variants?.[catalogAgeGroup(age)] ?? habit.description,
+  };
 }
 
 function toAssigned(
@@ -265,9 +279,7 @@ function toAssigned(
 ): AssignedHabit {
   return {
     id: habit.id,
-    title: habit.title,
-    subtitle: habit.subtitle,
-    description: resolveDescription(habit, age),
+    ...resolveCopy(habit, age),
     defaultTime: extras?.time ?? normalizeTime(habit.defaultTime),
     category: habit.category,
     frequency: habitFrequency(habit),
@@ -283,27 +295,56 @@ function toAssigned(
   };
 }
 
-function ageDistance(age: number, groups: string[]) {
-  const target = AGE_BANDS.indexOf(catalogAgeGroup(age) as (typeof AGE_BANDS)[number]);
-  const distances = groups.flatMap((group) => {
-    const index = AGE_BANDS.indexOf(group as (typeof AGE_BANDS)[number]);
-    return index < 0 || target < 0 ? [] : [Math.abs(index - target)];
-  });
-  return distances.length > 0 ? Math.min(...distances) : 99;
-}
-
 function isTeenOnly(habit: CatalogHabit) {
   return (habit.tags ?? []).includes('teen') || habit.ageGroups.every((group) => group === '13-18y');
 }
 
-function allowedForAge(habit: CatalogHabit, age: number, strict = true) {
-  if (!allowedGender(habit)) return false;
-  const band = catalogAgeGroup(age);
-  if (strict && !habit.ageGroups.includes(band)) return false;
-  if (!strict && ageDistance(age, habit.ageGroups) > 1) return false;
-  if (age < 13 && isTeenOnly(habit)) return false;
-  if (age < 9 && habit.category === 'puberty') return false;
-  return true;
+function allowedForAge(habit: CatalogHabit, age: number) {
+  return Number.isInteger(age) && age >= 2 && age <= 18 && allowedGender(habit)
+    && habit.ageGroups.includes(catalogAgeGroup(age))
+    && age >= (habit.minAge ?? 2) && age <= (habit.maxAge ?? 18)
+    && !(age < 13 && isTeenOnly(habit))
+    && !(age < 9 && habit.category === 'puberty');
+}
+
+function missingContext(habit: CatalogHabit, context: ScoreContext) {
+  return (habit.requiredSignals ?? []).filter((signal) => !context.signals.has(signal));
+}
+
+function relevant(habit: CatalogHabit, context: ScoreContext) {
+  return concernScore(habit.id, context.signals) > 0
+    || matchingGoals(habit, context.goals).length > 0
+    || (habit.recommendedWhen ?? []).some((signal) => context.signals.has(signal))
+    || (!!habit.requiredSignals?.length && missingContext(habit, context).length === 0);
+}
+
+function eligible(habit: CatalogHabit, context: ScoreContext) {
+  return allowedForAge(habit, context.age) && missingContext(habit, context).length === 0;
+}
+
+function profileCandidate(habit: CatalogHabit, context: ScoreContext) {
+  const baseline = habitFrequency(habit) === 'daily'
+    && ['hygiene', 'nutrition', 'movement', 'connection'].includes(habit.category)
+    && ['foundation', 'recommended'].includes(habitPriority(habit));
+  return eligible(habit, context) && isRoutineCandidate(habit) && (relevant(habit, context) || baseline);
+}
+
+function completedLearning(habit: CatalogHabit, context: ScoreContext) {
+  const today = context.date;
+  const cutoff = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+  return habitFrequency(habit) === 'one_time_learning'
+    && habitMarkHistory(context.marks, context.childKey, habit.id)
+      .some((row) => row.date <= cutoff && row.mark === 'ontime');
+}
+
+function availableToday(habit: CatalogHabit, context: ScoreContext) {
+  return eligible(habit, context) && isRoutineCandidate(habit)
+    && !completedLearning(habit, context) && isHabitDue(habit as AssignedHabit, context.date);
+}
+
+function distinctFrom(habit: CatalogHabit, selected: CatalogHabit[], goals: GoalId[]) {
+  return !selected.some((other) => other.id === habit.id || other.title === habit.title)
+    && (!habit.cluster || selected.filter((other) => other.cluster === habit.cluster).length < clusterCap(habit.cluster, goals));
 }
 
 function isOpportunity(habit: CatalogHabit) {
@@ -414,6 +455,10 @@ type ScoreContext = {
   age: number;
   goals: GoalId[];
   signals: Set<string>;
+  date: Date;
+  marks?: Record<string, HabitMark>;
+  childKey?: string;
+  selected?: CatalogHabit[];
   daypart?: Daypart;
   usedClusters?: Set<string>;
   categoryCounts?: Map<string, number>;
@@ -422,14 +467,18 @@ type ScoreContext = {
 
 export function scoreHabit(habit: CatalogHabit, context: ScoreContext) {
   const matched = matchingGoals(habit, context.goals);
-  let score = 0;
+  let score = concernScore(habit.id, context.signals);
   for (const goal of matched) {
     const index = context.goals.indexOf(goal);
     if (index >= 0 && index < GOAL_WEIGHTS.length) score += GOAL_WEIGHTS[index] ?? 0;
   }
   if (matched.length >= 2) score += 25;
   if (habit.ageGroups.includes(catalogAgeGroup(context.age))) score += 35;
-  score += 20 * (habit.recommendedWhen ?? []).filter((signal) => context.signals.has(signal)).length;
+  const matchedSignals = [...new Set([...(habit.recommendedWhen ?? []), ...(habit.tags ?? [])])]
+    .filter((signal) => context.signals.has(signal));
+  score += 25 * Math.min(matchedSignals.length, 2);
+  if (habitPriority(habit) === 'foundation') score += 20;
+  if (habitPriority(habit) === 'targeted' && matchedSignals.length > 0) score += 15;
   const time = normalizeTime(habit.defaultTime);
   if (context.daypart && time === context.daypart) score += 15;
   const parentCount = [...(context.targetCounts?.entries() ?? [])]
@@ -473,64 +522,33 @@ function pickForRole(
 ) {
   const daypart = ROLE_DAYPART[role];
   const roleContext = { ...context, daypart };
+  // Do not let an earlier generic habit consume a cluster needed by a more
+  // relevant concern-specific habit later in the day (for example listening
+  // in the evening versus generic connection time in the afternoon).
+  const reserved = pool.filter(habit => availableToday(habit, context)
+    && concernScore(habit.id, context.signals) > 0);
   const eligible = pool.filter(
-    (habit) => !usedIds.has(habit.id) && fitsRole(habit, role, context.goals) && preferredForRole(habit, role),
+    (habit) => !usedIds.has(habit.id) && availableToday(habit, context)
+      && !(habit.cluster && reserved.some(other => other.id !== habit.id
+        && other.cluster === habit.cluster
+        && concernScore(other.id, context.signals) > concernScore(habit.id, context.signals)))
+      && distinctFrom(habit, context.selected ?? [], context.goals)
+      && (fitsRole(habit, role, context.goals)
+        || (!FOUNDATION_ROLES.has(role) && concernScore(habit.id, context.signals) > 0))
+      && preferredForRole(habit, role),
   );
   const ranked = [...eligible].sort((left, right) => compareScored(left, right, roleContext));
   return ranked[0];
 }
 
-function withFallback(
-  role: string,
-  age: number,
-  context: ScoreContext,
-  usedIds: Set<string>,
-) {
-  const strict = catalog.filter((habit) => allowedForAge(habit, age, true) && isRoutineCandidate(habit));
-  const picked = pickForRole(role, strict, context, usedIds);
-  if (picked) return picked;
-  const nearby = catalog.filter((habit) => allowedForAge(habit, age, false) && isRoutineCandidate(habit));
-  return pickForRole(role, nearby, context, usedIds);
+function withFallback(role: string, context: ScoreContext, usedIds: Set<string>) {
+  // Widen the pool, never the eligibility, frequency, or diversity rules.
+  return pickForRole(role, catalog.filter((habit) => profileCandidate(habit, context)), context, usedIds);
 }
 
-function buildProfile(age: number, context: ScoreContext) {
-  const eligible = catalog.filter((habit) => allowedForAge(habit, age, true) && isRoutineCandidate(habit));
-  const ranked = [...eligible].sort((left, right) => compareScored(left, right, context));
-  const selected: CatalogHabit[] = [];
-  const used = new Set<string>();
-
-  for (const daypart of DAYPARTS) {
-    const local = { ...context, daypart };
-    const fromPart = ranked
-      .filter((habit) => {
-        const time = normalizeTime(habit.defaultTime);
-        return time === daypart || time === 'All day';
-      })
-      .sort((left, right) => compareScored(left, right, local));
-    for (const habit of fromPart.slice(0, 6)) {
-      if (used.has(habit.id)) continue;
-      used.add(habit.id);
-      selected.push(habit);
-    }
-  }
-
-  for (const habit of ranked) {
-    if (selected.length >= PROFILE_MAX) break;
-    if (used.has(habit.id)) continue;
-    used.add(habit.id);
-    selected.push(habit);
-  }
-
-  if (selected.length < PROFILE_MIN) {
-    for (const habit of eligible) {
-      if (selected.length >= PROFILE_MIN) break;
-      if (used.has(habit.id)) continue;
-      used.add(habit.id);
-      selected.push(habit);
-    }
-  }
-
-  return selected.slice(0, PROFILE_MAX);
+function buildProfile(context: ScoreContext) {
+  return catalog.filter((habit) => profileCandidate(habit, context))
+    .sort((left, right) => compareScored(left, right, context)).slice(0, PROFILE_MAX);
 }
 
 function rolesFor(guidance: GuidanceLevel): readonly string[] {
@@ -538,51 +556,50 @@ function rolesFor(guidance: GuidanceLevel): readonly string[] {
   return DAYPARTS.flatMap((daypart) => table[daypart]);
 }
 
-function pickSkills(age: number, context: ScoreContext, week: number) {
-  const candidates = catalog.filter((habit) => allowedForAge(habit, age, true) && isOpportunity(habit));
-  const ranked = [...candidates].sort((left, right) => compareScored(left, right, context));
-  if (ranked.length === 0) return [];
-  const start = week % ranked.length;
-  const rotated = [...ranked.slice(start), ...ranked.slice(0, start)];
-  return rotated.slice(0, SKILL_COUNT);
+function pickSkills(context: ScoreContext, week: number) {
+  const ranked = catalog.filter((habit) => eligible(habit, context) && relevant(habit, context)
+    && isOpportunity(habit) && !completedLearning(habit, context))
+    .sort((left, right) => compareScored(left, right, context));
+  // Rotate only between comparably relevant choices, never through the entire catalog.
+  const topScore = ranked[0] ? scoreHabit(ranked[0], context) : 0;
+  const shortlist = ranked.filter((habit) => scoreHabit(habit, context) >= topScore - 20).slice(0, 8);
+  const start = shortlist.length ? (week + habitHash(context.childKey ?? '')) % shortlist.length : 0;
+  const rotated = [...shortlist.slice(start), ...shortlist.slice(0, start)];
+  // Keep the best concern-specific skill visible; rotate the remaining peers.
+  if (ranked[0] && concernScore(ranked[0].id, context.signals) > 0) {
+    rotated.splice(rotated.indexOf(ranked[0]), 1);
+    rotated.unshift(ranked[0]);
+  }
+  const selected: CatalogHabit[] = [];
+  for (const habit of rotated) {
+    if (selected.length >= SKILL_COUNT) break;
+    if (distinctFrom(habit, selected, context.goals)) selected.push(habit);
+  }
+  return selected;
 }
 
-function pickExtras(
-  profile: CatalogHabit[],
-  anchors: CatalogHabit[],
-  context: ScoreContext,
-  week: number,
-  include: boolean,
-) {
-  if (!include) {
-    return DAYPARTS.flatMap((daypart) => {
-      const pool = profile.filter((habit) => {
-        if (anchors.some((anchor) => anchor.id === habit.id)) return false;
-        const time = normalizeTime(habit.defaultTime);
-        return time === daypart || time === 'All day';
-      });
-      if (pool.length === 0) return [];
-      const extra = pool[(week + habitHash(daypart)) % pool.length];
-      return extra ? [{ habit: extra, slot: daypart }] : [];
-    });
-  }
-
-  return DAYPARTS.flatMap((daypart) => {
-    const local = { ...context, daypart };
-    const pool = profile
-      .filter((habit) => {
-        if (anchors.some((anchor) => anchor.id === habit.id)) return false;
-        const time = normalizeTime(habit.defaultTime);
-        return time === daypart || time === 'All day';
-      })
+function pickExtras(profile: CatalogHabit[], anchors: CatalogHabit[], context: ScoreContext, week: number, include: boolean) {
+  if (!include) return [];
+  const selected = [...anchors];
+  const extras: { habit: CatalogHabit; slot: Daypart }[] = [];
+  for (const slot of DAYPARTS) {
+    const local = { ...context, daypart: slot };
+    const ranked = profile.filter((habit) => availableToday(habit, context)
+      && distinctFrom(habit, selected, context.goals)
+      && (normalizeTime(habit.defaultTime) === slot || normalizeTime(habit.defaultTime) === 'All day'))
       .sort((left, right) => compareScored(left, right, local));
-    const extra = pool[(week + habitHash(daypart)) % Math.max(pool.length, 1)];
-    return extra ? [{ habit: extra, slot: daypart }] : [];
-  });
+    if (!ranked.length) continue;
+    const topScore = scoreHabit(ranked[0], local);
+    const shortlist = ranked.filter((habit) => scoreHabit(habit, local) >= topScore - 20).slice(0, 3);
+    const habit = shortlist[(week + habitHash(slot + (context.childKey ?? ''))) % shortlist.length];
+    extras.push({ habit, slot });
+    selected.push(habit);
+  }
+  return extras;
 }
 
 export function assignHabits(input: AssignHabitsInput): HabitAssignment {
-  if (input.goals.length === 0) {
+  if (input.goals.length === 0 || !Number.isInteger(input.age) || input.age < 2 || input.age > 18) {
     return { habits: [], profile: [], anchors: [], skills: [] };
   }
 
@@ -592,11 +609,14 @@ export function assignHabits(input: AssignHabitsInput): HabitAssignment {
   const signals = new Set(input.signals ?? []);
   const context: ScoreContext = {
     age: input.age,
-    goals: input.goals,
+    goals: [...new Set(input.goals)].slice(0, 3),
     signals,
+    date,
+    marks: input.marks,
+    childKey: input.childKey,
   };
 
-  const profile = buildProfile(input.age, context);
+  const profile = buildProfile(context);
   const usedIds = new Set<string>();
   const anchors: CatalogHabit[] = [];
   const assignedTimes = new Map<string, Daypart>();
@@ -608,6 +628,7 @@ export function assignHabits(input: AssignHabitsInput): HabitAssignment {
     const roleContext: ScoreContext = {
       ...context,
       daypart,
+      selected: anchors,
       usedClusters: new Set(anchors.flatMap((habit) => (habit.cluster ? [habit.cluster] : []))),
       categoryCounts: anchors.reduce((counts, habit) => {
         counts.set(habit.category, (counts.get(habit.category) ?? 0) + 1);
@@ -620,9 +641,9 @@ export function assignHabits(input: AssignHabitsInput): HabitAssignment {
       }, new Map<string, number>()),
     };
 
-    const pool = profile.filter((habit) => !isHabitGraduated(input.marks, input.childKey, habit.id));
+    const pool = profile;
     let next = pickForRole(role, pool, roleContext, usedIds);
-    if (!next) next = withFallback(role, input.age, roleContext, usedIds);
+    if (!next) next = withFallback(role, roleContext, usedIds);
     if (!next) continue;
     usedIds.add(next.id);
     anchors.push(next);
@@ -635,14 +656,13 @@ export function assignHabits(input: AssignHabitsInput): HabitAssignment {
     (item) => !usedIds.has(item.habit.id),
   );
   for (const { habit: extra, slot } of extras) {
-    const time = normalizeTime(extra.defaultTime);
-    const daypart = time === 'Morning' || time === 'Afternoon' || time === 'Evening' ? time : 'Evening';
+    const daypart = slot;
     assignedTimes.set(extra.id, daypart);
     assignedRoles.set(extra.id, `extra:${slot}`);
     assignedScores.set(extra.id, scoreHabit(extra, { ...context, daypart: slot }));
   }
 
-  const skills = pickSkills(input.age, context, week);
+  const skills = pickSkills(context, week);
   const standing = [...anchors, ...extras.map((item) => item.habit)];
 
   return {
@@ -701,6 +721,7 @@ export type CatalogInspection = {
   opportunity: boolean;
   ageEligible: boolean;
   inProfilePool: boolean;
+  inSkillPool: boolean;
   nearbyFallback: boolean;
   score: number;
   matchedGoals: GoalId[];
@@ -712,9 +733,10 @@ export function inspectCatalog(input: {
   age: number;
   goals: GoalId[];
   signals?: Iterable<string>;
+  date?: Date;
 }): CatalogInspection[] {
   const signals = new Set(input.signals ?? []);
-  const context: ScoreContext = { age: input.age, goals: input.goals, signals };
+  const context: ScoreContext = { age: input.age, goals: [...new Set(input.goals)].slice(0, 3), signals, date: input.date ?? new Date() };
   const band = catalogAgeGroup(input.age);
 
   return catalog.map((habit) => {
@@ -727,14 +749,15 @@ export function inspectCatalog(input: {
     if (habit.category === 'safety') rejectReasons.push('Safety is left out of daily routines');
     if (habit.category === 'puberty' && input.age >= 9) rejectReasons.push('Puberty is left out of daily routines');
 
-    const strict = allowedForAge(habit, input.age, true);
-    const routine = isRoutineCandidate(habit);
+    const strict = allowedForAge(habit, input.age);
+    if (!strict) rejectReasons.push(`Outside supported ages (${habit.minAge ?? 2}–${habit.maxAge ?? 18})`);
+    for (const signal of missingContext(habit, context)) rejectReasons.push(`Requires confirmed context: ${signal}`);
+    if (!relevant(habit, context)) rejectReasons.push('No selected goal or concern matches');
+    if (!isOpportunity(habit) && !isHabitDue(habit as AssignedHabit, context.date)) rejectReasons.push('Not scheduled for the selected date');
 
     return {
       id: habit.id,
-      title: habit.title,
-      subtitle: habit.subtitle,
-      description: resolveDescription(habit, input.age),
+      ...resolveCopy(habit, input.age),
       category: habit.category,
       ageGroups: habit.ageGroups,
       defaultTime: normalizeTime(habit.defaultTime),
@@ -749,11 +772,13 @@ export function inspectCatalog(input: {
       prompts: habit.prompts,
       opportunity: isOpportunity(habit),
       ageEligible: strict,
-      inProfilePool: strict && routine,
-      nearbyFallback: !strict && allowedForAge(habit, input.age, false) && routine,
+      inProfilePool: context.goals.length > 0 && profileCandidate(habit, context),
+      inSkillPool: context.goals.length > 0 && eligible(habit, context) && relevant(habit, context) && isOpportunity(habit),
+      nearbyFallback: false,
       score: scoreHabit(habit, context),
       matchedGoals: matchingGoals(habit, input.goals),
-      matchedSignals: (habit.recommendedWhen ?? []).filter((signal) => signals.has(signal)),
+      matchedSignals: [...new Set([...(habit.recommendedWhen ?? []), ...(habit.tags ?? []), ...concernMatches(habit.id, signals)])]
+        .filter((signal) => signals.has(signal)),
       rejectReasons,
     };
   });

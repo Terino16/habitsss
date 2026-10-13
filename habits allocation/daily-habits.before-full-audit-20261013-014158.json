@@ -1,0 +1,3143 @@
+[
+  {
+    "id": "habit_same_three_step_bedtime",
+    "title": "Brush teeth, read, then go to bed",
+    "subtitle": "Repeat a familiar bedtime routine",
+    "description": "Help your child brush their teeth, read together, and go to bed at a regular time.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "cluster": "night_prep"
+  },
+  {
+    "id": "habit_room_ready_for_sleep",
+    "title": "Dim the bedroom lights before bed",
+    "subtitle": "Use a dim night-light if needed",
+    "description": "For ages 3–18, reduce bedroom light at bedtime; use a dim, warm-coloured night-light if needed.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_screens_off_before_bed",
+    "title": "Put screens away before bedtime",
+    "subtitle": "Keep devices out of the bedroom",
+    "description": "For ages 3–18, stop screens at least an hour before bed and keep devices outside the bedroom overnight.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep",
+      "calmer_screens"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_morning_outside_five",
+    "title": "Spend time in morning daylight",
+    "subtitle": "Make room for natural light",
+    "description": "For ages 3–18, encourage time in natural daylight, especially in the morning.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement",
+    "minAge": 3
+  },
+  {
+    "id": "habit_same_wake_time",
+    "title": "Keep bedtime and waking times regular",
+    "subtitle": "Follow a similar schedule on weekends",
+    "description": "For ages 3–18, keep bedtimes and wake-up times within 1–2 hours across the week.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_bathroom_before_bed",
+    "title": "Use the toilet before bed",
+    "subtitle": "For children being supported with bedwetting",
+    "description": "Encourage a toilet visit before bed and make the toilet easy to reach at night. This is situation-specific guidance, not a requirement for every child.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "bedtime"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": [
+      "bedwetting"
+    ],
+    "cluster": "night_prep",
+    "requiredSignals": [
+      "bedwetting"
+    ]
+  },
+  {
+    "id": "habit_teen_sleep_without_lecture",
+    "title": "Make time for bedtime worries",
+    "subtitle": "Listen and plan when to talk further",
+    "description": "For ages 3–18, acknowledge bedtime worries; arrange a daytime conversation if they need more discussion.",
+    "category": "sleep",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "teen",
+      "bedtime"
+    ],
+    "priority": "targeted",
+    "frequency": "weekly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "better_sleep"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_fruit_or_veg_with_meal",
+    "title": "Offer a variety of plant foods",
+    "subtitle": "Include fruit, vegetables and whole grains",
+    "description": "Offer fruit, vegetables and whole-grain foods across meals, rather than repeatedly relying on the same foods.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "picky_eating"
+    ],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": [],
+    "cluster": "meal_participation"
+  },
+  {
+    "id": "habit_child_decides_how_much",
+    "title": "Let your child stop eating when full",
+    "subtitle": "Offer food without pressure to finish",
+    "description": "Provide meals and snacks at predictable times, and let your child decide whether they are hungry and when they have eaten enough.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "picky_eating"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": [
+      "picky_eating"
+    ]
+  },
+  {
+    "id": "habit_one_meal_together",
+    "title": "Share a relaxed family meal",
+    "subtitle": "Make room for friendly conversation",
+    "description": "Eat together when possible and keep mealtime conversation pleasant, without arguments or lectures.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals",
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "meal_participation"
+  },
+  {
+    "id": "habit_protein_at_breakfast",
+    "title": "Offer different protein foods",
+    "subtitle": "Vary the choices across meals",
+    "description": "Include protein foods such as beans, eggs, fish or lean meat as part of varied meals.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_water_not_sugary",
+    "title": "Offer water instead of sugary drinks",
+    "subtitle": "Make water an everyday option",
+    "description": "Offer water in place of soda and other sugary drinks.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_no_body_comments",
+    "title": "Eat without commenting on their body",
+    "subtitle": "No “you look” or “you need to eat more”",
+    "description": "During meals, skip comments about their body, weight, or how much they “should” eat. Done when the meal ended without those comments.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_no_good_bad_food",
+    "title": "Offer new foods alongside familiar ones",
+    "subtitle": "For toddlers learning to enjoy different foods",
+    "description": "Serve a small amount of a new food with familiar foods. Offer it again on another occasion without bargaining over bites.",
+    "category": "nutrition",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "picky_eating"
+    ],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "healthier_meals"
+    ],
+    "recommendedWhen": [
+      "picky_eating"
+    ]
+  },
+  {
+    "id": "habit_get_outside_today",
+    "title": "Walk or cycle together on short trips",
+    "subtitle": "Build movement into family travel",
+    "description": "When practical, walk or cycle together for short journeys instead of taking the car.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_active_play_under_five",
+    "title": "Spread active play throughout the day",
+    "subtitle": "Under age 5: at least 180 minutes of daily activity",
+    "description": "Ages 1–2: Offer movement and play across the day, such as walking, dancing and playing outdoors. The time can be spread out. Ages 3–4: Include at least 60 minutes of moderate-to-vigorous activity within the day’s movement, spread across the day.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_move_hour_across_day",
+    "title": "Build an active week",
+    "subtitle": "Ages 5–18: average 60 minutes of activity daily",
+    "description": "Aim for an average of at least 60 minutes of moderate-to-vigorous activity per day across the week, using activities suited to your child’s abilities.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_practice_physical_skill",
+    "title": "Practise throwing and catching through play",
+    "subtitle": "For young children developing movement skills",
+    "description": "Play throwing-and-catching games suited to your child’s age and ability.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_free_play_outside",
+    "title": "Let them play freely outside",
+    "subtitle": "You stay nearby. You do not run the game.",
+    "description": "Give them unstructured outdoor play without directing the activity. Stay nearby for safety. Done when they played without your plan.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_move_before_homework",
+    "title": "Break up long periods of sitting",
+    "subtitle": "For school-age children and teenagers",
+    "description": "Encourage your child to break up long periods of sitting with movement throughout the day.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [
+      "attention_difficulty"
+    ],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty",
+      "homework_conflict",
+      "difficulty_starting_tasks"
+    ],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_hard_play_before_dinner",
+    "title": "Choose an active game your child enjoys",
+    "subtitle": "For ages 5–18: running, cycling or dancing",
+    "description": "Encourage enjoyable activity such as running games, cycling or dancing as part of their movement across the week.",
+    "category": "movement",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty"
+    ],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "cluster": "daily_movement"
+  },
+  {
+    "id": "habit_brush_teeth_twice",
+    "title": "Brush teeth morning and night",
+    "subtitle": "Two minutes each time. You help as needed.",
+    "description": "Brush morning and night for two minutes. For younger kids, you do most of it. For older kids, you check. Done when both brushes happened.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "cluster": "teeth",
+    "variants": {
+      "2-4y": "You brush their teeth morning and night for two minutes. They can hold the brush after. Done when both brushes happened.",
+      "5-8y": "They brush; you finish the two minutes morning and night. Done when both brushes happened.",
+      "9-12y": "They brush morning and night for two minutes. You check once. Done when both brushes happened.",
+      "13-18y": "They brush morning and night for two minutes. A reminder is enough. Done when both brushes happened."
+    }
+  },
+  {
+    "id": "habit_wash_hands_coming_home",
+    "title": "Wash hands before eating and after the toilet",
+    "subtitle": "Use soap, scrub, rinse and dry",
+    "description": "Help your child wash with soap and water before eating and after using the toilet, scrubbing for at least 20 seconds.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_sunscreen_before_outdoors",
+    "title": "Put on sunscreen before a long time outside",
+    "subtitle": "Face, neck, and arms before you go",
+    "description": "Put sunscreen on face, neck, and arms before extended outdoor time. Done when it is on before you leave.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "seasonal",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "activeMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "habit_water_bottle_to_school",
+    "title": "Bring a water bottle to school",
+    "subtitle": "Fill it the night before or at breakfast",
+    "description": "Fill a water bottle and put it with the bag they take to school. Done when it is packed.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_clean_clothes_after_activity",
+    "title": "Change into clean clothes after heavy activity",
+    "subtitle": "Sweaty clothes go in the hamper",
+    "description": "After sports or heavy play, change into clean clothes and put the sweaty ones in the hamper. Done when they changed.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_one_body_care_skill",
+    "title": "Build a personal hygiene routine",
+    "subtitle": "For teenagers going through puberty",
+    "description": "Help your teen establish washing, hair-care and toothbrushing routines, and discuss using deodorant kindly and privately.",
+    "category": "hygiene",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_three_slow_breaths",
+    "title": "Practise slow breathing together",
+    "subtitle": "Learn the exercise when everyone is calm",
+    "description": "In a quiet moment, practise breathing slowly in through the nose and out through the mouth. Start with one breath for younger children.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "cluster": "emotional_labeling"
+  },
+  {
+    "id": "habit_rate_feeling",
+    "title": "Notice the early signs of anger",
+    "subtitle": "Look for changes in the body",
+    "description": "Help your child recognise their own warning signs, such as tense muscles, clenched fists or a faster heartbeat.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_name_feeling_before_reacting",
+    "title": "Help your child name their feelings",
+    "subtitle": "Connect the feeling to what happened",
+    "description": "Listen to what happened and help your young child find words for the emotion they are experiencing.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "cluster": "emotional_labeling"
+  },
+  {
+    "id": "habit_pick_calmdown",
+    "title": "Choose a strategy for when anger builds",
+    "subtitle": "Practise a response your child can use",
+    "description": "Help your child choose a response such as slow breathing, walking away or talking to someone they trust when they notice anger starting.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_say_what_you_need",
+    "title": "Talk about what to do differently next time",
+    "subtitle": "For ages 3–8, after they have calmed down",
+    "description": "Once your child is calm, discuss what happened and an alternative response, such as asking for a toy instead of hitting.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_notice_hard_feeling_handled",
+    "title": "Notice progress in handling anger",
+    "subtitle": "Recognise small efforts to cope",
+    "description": "Praise your child’s attempts to manage anger, including small improvements in how they respond.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_stay_present_until_settles",
+    "title": "Stay close while big feelings settle",
+    "subtitle": "For ages 3–8: offer calm support",
+    "description": "Keep yourself and your child safe, acknowledge their feelings, and stay available. Discuss solutions after they are calmer.",
+    "category": "emotional_regulation",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "emotional_wellbeing",
+      "better_cooperation",
+      "less_conflict"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3
+  },
+  {
+    "id": "habit_daily_connection_after_school",
+    "title": "Spend focused time together",
+    "subtitle": "Let your child choose an activity and give them your attention.",
+    "description": "Set aside one-to-one time to talk or play together. Follow your child’s lead, with your phone and television put away.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "closer_connection",
+      "less_conflict"
+    ],
+    "recommendedWhen": [],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_daily_check_in",
+    "title": "Listen with your full attention",
+    "subtitle": "Get to your child’s level and check that you understood.",
+    "description": "Give your child your attention, come down to their level when helpful, and listen without interrupting. Reflect back what you understood and let them clarify.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_teen_conversation_no_advice",
+    "title": "Ask what support they want",
+    "subtitle": "Check before offering advice",
+    "description": "Listen first, then ask whether your child wants you to listen or help them work through a solution.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "anxiety"
+    ],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "anxiety",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_teen_what_excited",
+    "title": "Talk about school and friendships",
+    "subtitle": "For ages 6–10: explore what went well or felt hard",
+    "description": "Ask about friends, enjoyable experiences and difficulties, then listen to how your child feels about them.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "closer_connection",
+      "better_talk",
+      "more_confidence"
+    ],
+    "recommendedWhen": [
+      "low_confidence"
+    ],
+    "cluster": "connection_time",
+    "minAge": 6,
+    "maxAge": 10
+  },
+  {
+    "id": "habit_one_step_then_wait",
+    "title": "Give one clear instruction at a time",
+    "subtitle": "For ages 2–4: name the specific action",
+    "description": "Get your child’s attention, give one simple direction, and make the action concrete, such as putting a truck away.",
+    "category": "behaviour",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "easier_transitions",
+      "closer_connection"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ]
+  },
+  {
+    "id": "habit_warn_before_transition",
+    "title": "Give a 5-minute warning",
+    "subtitle": "Name the next thing before you switch",
+    "description": "Before play or a screen ends, say “Five more minutes, then bath.” Done when you gave the warning before the switch.",
+    "category": "behaviour",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "easier_transitions"
+    ],
+    "recommendedWhen": [],
+    "cluster": "transition_support"
+  },
+  {
+    "id": "habit_teen_natural_consequence",
+    "title": "Let one natural consequence happen",
+    "subtitle": "You do not rescue the forgotten item",
+    "description": "Let one natural consequence stand, like a forgotten item staying forgotten. Stay kind. Done when you did not rescue it.",
+    "category": "behaviour",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict",
+      "easier_transitions"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_one_job_they_own",
+    "title": "Teach an age-appropriate household task",
+    "subtitle": "Practise together before expecting independence",
+    "description": "Choose a chore suited to your child’s abilities, explain it, and do it together while they learn.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_let_them_try_first",
+    "title": "Let them try the small problem first",
+    "subtitle": "Wait, then one hint if they are stuck",
+    "description": "When a small problem shows up, let them try first. Count to 20, then offer one hint if they are stuck. Done when they tried before you took over.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "cluster": "independence_problem_solving"
+  },
+  {
+    "id": "habit_dress_themselves",
+    "title": "Let them dress themselves",
+    "subtitle": "You lay out options. They put them on.",
+    "description": "Let them dress themselves. Lay out two options if they need help choosing. Done when they put the clothes on, even if they are mismatched.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_clean_own_spill",
+    "title": "Let them clean up their own spill",
+    "subtitle": "Hand them a cloth. Help only if needed.",
+    "description": "Hand them a cloth and let them clean the spill. Help only if they cannot finish. Done when they started the cleanup.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_order_or_ask_themselves",
+    "title": "Let them ask the question",
+    "subtitle": "At a store, restaurant, or school office",
+    "description": "Let them order or ask the question themselves at a store, restaurant, or office. You stand nearby. Done when they asked.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_dirty_clothes_hamper",
+    "title": "Put dirty clothes in the hamper",
+    "subtitle": "The clothes they took off today",
+    "description": "Put today’s dirty clothes in the hamper. Done when they are in the basket, not on the floor.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_clean_up_before_next",
+    "title": "Put toys away together",
+    "subtitle": "Start with a manageable chore for young children",
+    "description": "Help your young child put toys away, giving them support as they learn the task.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_prepare_part_of_meal",
+    "title": "Let your child help measure ingredients while you cook",
+    "subtitle": "Help them fill measuring cups and compare amounts.",
+    "description": "During a suitable cooking activity, help your child fill and level measuring cups and compare quantities.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "cluster": "meal_participation"
+  },
+  {
+    "id": "habit_reset_room_five",
+    "title": "Agree who does each household job",
+    "subtitle": "Make responsibilities clear",
+    "description": "Discuss suitable chores together and use a list or chart to show who is responsible and when each job needs doing.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_clear_own_plate",
+    "title": "Child clears their own plate",
+    "subtitle": "To the sink or the counter",
+    "description": "They carry their plate to the sink or counter after the meal. Done when the plate is there.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_thank_someone_for_helping",
+    "title": "Thank someone for helping",
+    "subtitle": "Name the person and what they did",
+    "description": "Thank someone in the house for a specific help. Done when the thank-you named the person and the action.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "child",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": [],
+    "cluster": "connection_time"
+  },
+  {
+    "id": "habit_teen_money_this_week",
+    "title": "Compare prices and features with your teen before choosing a phone plan",
+    "subtitle": "Discuss which option fits the family’s needs and budget.",
+    "description": "When choosing a phone plan with your teen, compare features and costs together against the family’s needs and budget.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "choosing_phone_plan"
+    ]
+  },
+  {
+    "id": "habit_read_ten_minutes",
+    "title": "Invite your child to describe the pictures while you read together",
+    "subtitle": "Build on their comments without turning reading into a quiz.",
+    "description": "With a preschooler, invite comments about the pictures, build on their answers and follow their interest. Keep it enjoyable rather than questioning them on every page.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": [],
+    "minAge": 3,
+    "maxAge": 5
+  },
+  {
+    "id": "habit_why_do_you_think",
+    "title": "Explore the answer together when your child asks how something works",
+    "subtitle": "Observe, look it up or try a simple experiment.",
+    "description": "When your child wonders about something, explore the answer together through observation or a simple experiment. You do not need to know the answer beforehand.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_ten_minutes_creating",
+    "title": "Let your child draw or paint without copying a sample",
+    "subtitle": "Provide materials and let them choose what to make.",
+    "description": "For young children, provide blank paper and suitable drawing or craft materials. Let them explore without copying a model or having their work corrected.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_let_boredom_happen",
+    "title": "Create a list together of things your child can do when bored",
+    "subtitle": "Choose activities they enjoy; use pictures for younger children.",
+    "description": "Create a list together based on your child’s interests. Use pictures for younger children, and let them refer to it during free time.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_solve_everyday_problem",
+    "title": "Meet as a family each week to discuss plans and concerns",
+    "subtitle": "Give everyone a turn to speak and write down agreements.",
+    "description": "For families with school-age children, meet at a regular weekly time, let everyone speak without interruption, and record agreements. Keep reprimands out of the meeting.",
+    "category": "connection",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "weekly",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "closer_connection",
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_explore_something_new",
+    "title": "Help your child draw or photograph something they noticed in nature",
+    "subtitle": "Record what interested them so you can revisit it together.",
+    "description": "When something interests your child—a plant, the moon or changing leaves—help them record their observations so they can revisit them.",
+    "category": "learning",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_prepare_tomorrow_tonight",
+    "title": "Check upcoming work and deadlines",
+    "subtitle": "Help school-age children plan ahead",
+    "description": "Use a calendar or planner to keep track of assignments and due dates, and decide when the work will happen.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "morning_chaos",
+      "difficulty_starting_tasks"
+    ],
+    "cluster": "school_prep"
+  },
+  {
+    "id": "habit_homework_spot_ready",
+    "title": "Set up a quiet homework space",
+    "subtitle": "Keep supplies ready and distractions away",
+    "description": "Provide a well-lit workspace with needed materials, and reduce distractions such as television and phone calls.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus",
+      "calmer_screens"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ]
+  },
+  {
+    "id": "habit_five_minute_first_task",
+    "title": "Divide a large assignment into smaller parts",
+    "subtitle": "Plan manageable work sessions",
+    "description": "Help your child break a big assignment into sections and make a schedule for completing them.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ]
+  },
+  {
+    "id": "habit_one_genuine_compliment",
+    "title": "Give one genuine compliment",
+    "subtitle": "About something specific they noticed",
+    "description": "Give one specific compliment about something they actually noticed. Done when the sentence was said.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "child",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_invite_someone_to_join",
+    "title": "Help your child invite a friend over to play",
+    "subtitle": "Let them choose whom to invite and coordinate with the other parent.",
+    "description": "Ask your school-age child whom they would like to invite, then coordinate with the other parent. Give the children space to play while remaining available.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_take_turns",
+    "title": "Play a card or board game to teach your child to take turns",
+    "subtitle": "Explain each turn and help when waiting is difficult.",
+    "description": "Play a suitable card or board game and explain whose turn comes next. Offer support while your child learns, instead of requiring independent turn-taking immediately.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_practice_no_thank_you",
+    "title": "Respect a child’s right to say no to touch",
+    "subtitle": "Their body belongs to them",
+    "description": "Teach your child that they can refuse unwanted touch, including from someone they know, and respect their refusal.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_look_for_someone_left_out",
+    "title": "Practise how your child can leave bullying and get adult help",
+    "subtitle": "Discuss speaking up when safe, walking away and telling a trusted adult.",
+    "description": "Discuss what your child can do if bullied: speak firmly if safe, move away when it is not, and seek help from a trusted adult.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_repair_after_hurting",
+    "title": "Help your child repair the harm if they have bullied someone",
+    "subtitle": "Choose a response linked to the harm, such as repairing damaged belongings.",
+    "description": "Only when your child has bullied someone: involve them in an appropriate repair, such as fixing damaged property or writing an apology. Do not force a meeting with the child who was harmed.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": [
+      "bullying_others"
+    ],
+    "requiredSignals": [
+      "bullying_others"
+    ]
+  },
+  {
+    "id": "habit_ask_before_touching",
+    "title": "Ask before touching or borrowing",
+    "subtitle": "Wait for a yes",
+    "description": "Ask before hugging, grabbing, or borrowing. Wait for a yes. Done when they asked first.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_disagree_respectfully",
+    "title": "Practice disagreeing without insults",
+    "subtitle": "“I see it differently” counts",
+    "description": "Practice disagreeing without insults. “I see it differently” counts. Done when a disagreement stayed respectful.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_tell_when_boundary_crossed",
+    "title": "Tell a trusted adult about worrying touch or secrets",
+    "subtitle": "Help your child know where to seek support",
+    "description": "Explain that they can tell a trusted adult about anything that worries or upsets them, even if someone asked them to keep it secret.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_helpful_without_asked",
+    "title": "Volunteer with your child in an activity suitable for their age",
+    "subtitle": "Choose a community activity where you can help together.",
+    "description": "Include your child in a suitable community activity, such as helping with a food-bank meal. Choose an opportunity that welcomes children and fits their abilities.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_know_one_friend",
+    "title": "Get to know your teen’s friends",
+    "subtitle": "Make their friends welcome at home",
+    "description": "Create opportunities to meet the friends your teen spends time with, including welcoming them into your home.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "weekly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_relationships_no_lecture",
+    "title": "Talk with your teen about caring behaviour and controlling behaviour in relationships",
+    "subtitle": "Discuss personal choices, friendships, pressure and respectful disagreement.",
+    "description": "With your teen, discuss being able to keep friendships, make choices and disagree safely. Explain how controlling behaviour differs from care.",
+    "category": "social",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_praise_effort_or_strategy",
+    "title": "Praise a specific effort or action",
+    "subtitle": "Describe what your child did and why you appreciated it.",
+    "description": "Recognise your child’s effort or helpful behaviour by naming the action you noticed, rather than giving a general label about what kind of person they are.",
+    "category": "confidence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "more_confidence"
+    ],
+    "recommendedWhen": [
+      "low_confidence"
+    ],
+    "cluster": "specific_praise",
+    "minAge": 6,
+    "maxAge": 10
+  },
+  {
+    "id": "habit_leave_mistake_unfixed",
+    "title": "Let your child do their own homework",
+    "subtitle": "Offer guidance without taking over",
+    "description": "Be available to explain or suggest an approach, while letting your child do the thinking and complete the work themselves.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_ask_what_they_learned",
+    "title": "Ask “What did you learn?” after something hard",
+    "subtitle": "After a miss, not only after a win",
+    "description": "After something hard, ask what they learned. Done when they answered and you did not jump to a lecture.",
+    "category": "confidence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "more_confidence"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_let_them_teach_you",
+    "title": "Ask your child to show you the apps and games they use",
+    "subtitle": "Learn what they do there and how they interact with other people.",
+    "description": "Let your child walk you through a platform they use so you understand its features and how they interact with others there.",
+    "category": "digital",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "calmer_screens",
+      "better_talk"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_decide_screen_stopping_point",
+    "title": "Agree on screen-use limits together",
+    "subtitle": "Include screen-free times in your family media plan.",
+    "description": "Create a family media plan with expectations and limits suited to your child. Agree on screen-free times such as meals, homework and bedtime, and have adults follow the plan too.",
+    "category": "digital",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "family",
+    "goalTags": [
+      "calmer_screens",
+      "easier_transitions",
+      "better_cooperation"
+    ],
+    "recommendedWhen": [
+      "screen_stopping_conflict"
+    ],
+    "cluster": "screen_transition"
+  },
+  {
+    "id": "habit_teen_talk_about_online",
+    "title": "Point out advertisements while watching online content with your child",
+    "subtitle": "Explain when a video or influencer is promoting something.",
+    "description": "When viewing content together, help your child distinguish advertising, edited material and an influencer’s promotional message.",
+    "category": "digital",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "calmer_screens"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_correct_body_part_names",
+    "title": "Use the correct names for body parts",
+    "subtitle": "Use accurate words when body questions come up.",
+    "description": "Use correct anatomical terms calmly when discussing the body or answering your child’s questions.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_check_before_going",
+    "title": "Agree on a check-in plan before going out",
+    "subtitle": "For ages 9–18: discuss whereabouts and contact",
+    "description": "Agree where your child is going, who they will be with, and when and how they will check in.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_seatbelt_check",
+    "title": "Seatbelt check before driving",
+    "subtitle": "Click, then the car moves",
+    "description": "Check that every seatbelt is on before the car moves. Done when you checked and then drove.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "event_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_helmet_before_wheels",
+    "title": "Helmet on before bike or scooter",
+    "subtitle": "Strapped, then they roll",
+    "description": "Put a helmet on before a bike, scooter, or skateboard. Done when it is strapped before they roll.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "foundation",
+    "frequency": "event_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_dont_share_passwords",
+    "title": "Set up privacy and messaging controls before your child uses a new account",
+    "subtitle": "Review who can contact them, reporting tools and purchase permissions.",
+    "description": "When an age-appropriate account is created, use secure privacy settings and discuss who can contact them, reporting tools and purchase permissions. Explain why passwords should not be shared with friends.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "environment",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "new_online_account"
+    ]
+  },
+  {
+    "id": "habit_pause_before_photo",
+    "title": "Ask permission before sharing someone’s photo",
+    "subtitle": "Respect a no or a change of mind",
+    "description": "Ask the people pictured before sharing their photo or video. Remove it if they later ask you to.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_tell_adult_online_message",
+    "title": "Tell an adult about a disturbing message",
+    "subtitle": "They are not in trouble for showing you",
+    "description": "Tell them they can show you a disturbing message and will not be in trouble. Done when you said that out loud.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "monthly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_consent_boundaries",
+    "title": "Talk about consent and boundaries",
+    "subtitle": "One short, judgment-free conversation",
+    "description": "Have one short talk about consent and boundaries without judgment. Done when you talked and they could respond.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "monthly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_teen_substances_talk",
+    "title": "Agree how your teen can contact you to leave a situation involving alcohol or drugs",
+    "subtitle": "Practise refusing an offer and choose a message or code word for help.",
+    "description": "With your teen, practise declining an offer and agree on an exit plan, such as a code word they can text a family member.",
+    "category": "safety",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_answer_body_question",
+    "title": "Answer one body question honestly",
+    "subtitle": "Short, true, and without teasing",
+    "description": "Answer one body question honestly and without teasing. Done when you answered in plain words.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_normalize_puberty_change",
+    "title": "Normalize one puberty change",
+    "subtitle": "Name it as expected, not weird",
+    "description": "Name one puberty change as expected. Done when you said it in a matter-of-fact way.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "weekly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_hygiene_supplies_stocked",
+    "title": "Keep personal-care supplies available",
+    "subtitle": "Make needed products easy to access",
+    "description": "Ensure your teen has the washing, deodorant, skin-care or menstrual products they need.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "weekly",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_normalize_menstruation",
+    "title": "Prepare for periods together",
+    "subtitle": "Explain what to expect and pack supplies",
+    "description": "Talk about periods before they begin, and help your child keep spare menstrual products and underwear somewhere accessible.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "period_preparation"
+    ]
+  },
+  {
+    "id": "habit_awkward_question_no_teasing",
+    "title": "Let them ask an awkward question without teasing",
+    "subtitle": "Thank them for asking",
+    "description": "When an awkward question comes, thank them for asking and skip the tease. Done when the question got a straight answer.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_no_attractiveness_comments",
+    "title": "Talk about body changes without commenting on looks",
+    "subtitle": "No “you look grown” or rating",
+    "description": "Talk about body changes without commenting on attractiveness. Done when the talk stayed about function, not looks.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_bodies_develop_different_speeds",
+    "title": "Remind them bodies develop at different speeds",
+    "subtitle": "Early and late are both normal",
+    "description": "Remind them that bodies develop at different speeds. Done when you said early and late are both normal.",
+    "category": "puberty",
+    "gender": "both",
+    "ageGroups": [
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "targeted",
+    "frequency": "monthly",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_one_instruction_no_yelling",
+    "title": "Say clearly what you want your child to do",
+    "subtitle": "For ages 2–4: use a calm, specific direction",
+    "description": "Describe the action you want in a calm voice instead of only telling your child what to stop doing.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "All day",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "better_cooperation",
+      "less_conflict"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_replace_threat_with_boundary",
+    "title": "Explain consequences calmly and follow through",
+    "subtitle": "Give a clear opportunity to change behaviour",
+    "description": "Explain a realistic consequence, allow your child a chance to respond, and follow through calmly and consistently if needed.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "better_cooperation",
+      "less_conflict"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_apologize_out_loud",
+    "title": "Apologise to your child after shouting or treating them unfairly",
+    "subtitle": "Own your behaviour and explain what you will do differently.",
+    "description": "When you make a parenting mistake, acknowledge it, apologise without shifting blame, and explain how you intend to do better.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "id": "habit_love_you_no_performance",
+    "title": "Express love without tying it to achievement",
+    "subtitle": "For ages 6–10: offer reassurance and affection",
+    "description": "Let your child know they are loved through words and affection, including when they have made a mistake.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Evening",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection",
+      "emotional_wellbeing"
+    ],
+    "recommendedWhen": [
+      "frequent_yelling"
+    ],
+    "minAge": 6,
+    "maxAge": 10
+  },
+  {
+    "id": "habit_teen_give_privacy",
+    "title": "Respect your teen’s everyday privacy",
+    "subtitle": "Knock and ask before entering personal space",
+    "description": "Knock before entering their room, ask before looking in their bag, and discuss privacy boundaries together.",
+    "category": "parent_skills",
+    "gender": "both",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "tags": [
+      "teen"
+    ],
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "closer_connection"
+    ],
+    "recommendedWhen": []
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_two_acceptable_choices",
+    "title": "Offer two acceptable choices",
+    "subtitle": "For ages 2–4: give a manageable decision",
+    "description": "Offer two options that both work for the situation, allowing your child to make the choice.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y"
+    ],
+    "defaultTime": "Morning",
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "better_cooperation",
+      "easier_transitions",
+      "less_conflict"
+    ],
+    "cluster": "transition_support"
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_no_renegotiate_boundary",
+    "title": "Agree on household rules with your teen",
+    "subtitle": "Discuss expectations and consequences together",
+    "description": "Involve your teenager in setting family rules and the consequences of breaking them.",
+    "category": "behaviour",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "conversation",
+    "target": "family",
+    "goalTags": [
+      "better_cooperation",
+      "less_conflict"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "id": "habit_when_then",
+    "title": "Use “When → Then”",
+    "subtitle": "“When your shoes are on, then we leave.”",
+    "description": "Use one When-Then: “When your shoes are on, then we leave.” Done when you used that frame once.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Morning",
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "easier_transitions",
+      "better_cooperation"
+    ],
+    "recommendedWhen": [
+      "morning_chaos",
+      "difficulty_starting_tasks",
+      "transition_meltdowns"
+    ],
+    "cluster": "transition_support"
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_related_consequence",
+    "title": "Keep the consequence related to the behavior",
+    "subtitle": "The fix matches what happened",
+    "description": "Pick a consequence that matches the behavior, not a random punishment. Done when the follow-through was related.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict",
+      "better_cooperation"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_no_punish_while_angry",
+    "title": "Pause before responding when you are angry",
+    "subtitle": "Give yourself a moment to regain calm",
+    "description": "Take a pause and several slow breaths before responding to your child when your own anger is rising.",
+    "category": "behaviour",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [],
+    "recommendedWhen": [],
+    "id": "habit_one_respectful_redo",
+    "title": "Give one respectful redo",
+    "subtitle": "“Try saying that again respectfully.”",
+    "description": "Offer one redo: “Try saying that again respectfully.” Done when you offered the redo and heard a second try.",
+    "category": "behaviour",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "better_talk",
+      "better_cooperation",
+      "less_conflict"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "id": "habit_easiest_next_action",
+    "title": "Gather what is needed before starting a task",
+    "subtitle": "Help school-age children prepare to work",
+    "description": "Identify the task and collect the materials needed before beginning.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "id": "habit_visible_checklist",
+    "title": "Use a checklist for a multi-step task",
+    "subtitle": "Make the steps of a routine visible.",
+    "description": "Help your child list the steps of a task or routine, such as getting ready in the morning, and mark them off as they finish.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "environment",
+    "target": "environment",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "attention_difficulty",
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "attention_difficulty"
+    ],
+    "id": "habit_work_then_break",
+    "title": "Plan breaks during longer homework sessions",
+    "subtitle": "Balance focused work with rest",
+    "description": "Help your child schedule breaks when homework needs a longer work session.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "executive_function"
+    ],
+    "recommendedWhen": [],
+    "id": "habit_estimate_how_long",
+    "title": "Use a visual timer to show your child how much task time remains",
+    "subtitle": "Offer this support when they struggle to judge passing time.",
+    "description": "For a child who struggles with time management, use a visual timer or countdown clock during a task so they can see how much time remains.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "enrichment",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "executive_function"
+    ],
+    "recommendedWhen": [
+      "homework_conflict",
+      "difficulty_starting_tasks"
+    ],
+    "id": "habit_pack_finished_work",
+    "title": "Put finished homework in the school bag",
+    "subtitle": "Complete the final step before moving on",
+    "description": "After checking the work is complete, place it in the appropriate folder and school bag.",
+    "category": "school",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_name_the_worry",
+    "title": "Ask an open question about a worry",
+    "subtitle": "Give your child room to explain",
+    "description": "Ask how they feel about a situation without suggesting that they should be afraid of it.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "anxiety",
+      "emotional_wellbeing"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_worry_vs_fact",
+    "title": "Talk through a plan for a feared situation",
+    "subtitle": "Work out what they could do",
+    "description": "Discuss what your child could do if the situation they worry about happened, rather than promising it cannot happen.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "anxiety",
+      "emotional_wellbeing"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_small_brave_step",
+    "title": "Do one small brave step",
+    "subtitle": "To the door is enough. Not the whole thing.",
+    "description": "Pick one small brave step, like walking to the classroom door. Done when they did that step.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "child",
+    "goalTags": [
+      "anxiety",
+      "more_confidence"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_dont_remove_every_discomfort",
+    "title": "Offer reassurance without promising certainty",
+    "subtitle": "Show confidence in their ability to cope",
+    "description": "Acknowledge that a situation feels difficult and express confidence that your child can manage it with support.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "anxiety",
+      "more_confidence"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety",
+      "school_anxiety",
+      "separation_anxiety",
+      "morning_resistance"
+    ],
+    "id": "habit_rehearse_first",
+    "title": "Use a short, predictable goodbye",
+    "subtitle": "For young children adjusting to separation",
+    "description": "Use a familiar goodbye ritual, give your child your attention, and explain when you will return using an event they understand.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y"
+    ],
+    "defaultTime": "Morning",
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "anxiety",
+      "emotional_wellbeing",
+      "easier_transitions"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "anxiety"
+    ],
+    "recommendedWhen": [
+      "anxiety"
+    ],
+    "id": "habit_name_bravery_after",
+    "title": "Recognise effort in facing a worry",
+    "subtitle": "Notice the attempt, not just the outcome",
+    "description": "Praise your child for tolerating an anxious situation and making an effort to face it.",
+    "category": "emotional_regulation",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "anxiety",
+      "more_confidence"
+    ],
+    "cluster": "specific_praise"
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "siblings",
+      "conflict"
+    ],
+    "recommendedWhen": [
+      "siblings",
+      "conflict"
+    ],
+    "id": "habit_hear_each_child_first",
+    "title": "Help siblings work towards an agreement",
+    "subtitle": "For teenagers: listen to both perspectives",
+    "description": "When help is needed, let each teen explain their view, support a calm discussion and help them negotiate a solution.",
+    "category": "behaviour",
+    "ageGroups": [
+      "13-18y"
+    ],
+    "defaultTime": "Event-based",
+    "priority": "targeted",
+    "frequency": "opportunity_based",
+    "habitType": "opportunity",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict",
+      "better_cooperation"
+    ],
+    "requiredSignals": [
+      "siblings"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "siblings",
+      "conflict"
+    ],
+    "recommendedWhen": [
+      "siblings"
+    ],
+    "id": "habit_dont_compare_siblings",
+    "title": "Don’t compare siblings",
+    "subtitle": "No “Why can’t you be more like…”",
+    "description": "Skip any comparison to a sibling today. Done when the day ended without one.",
+    "category": "connection",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "All day",
+    "priority": "targeted",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict",
+      "closer_connection",
+      "more_confidence"
+    ],
+    "requiredSignals": [
+      "siblings"
+    ]
+  },
+  {
+    "gender": "both",
+    "tags": [
+      "siblings"
+    ],
+    "recommendedWhen": [
+      "siblings"
+    ],
+    "id": "habit_notice_teamwork",
+    "title": "Notice teamwork between siblings",
+    "subtitle": "Name the moment they helped each other",
+    "description": "Name one moment they helped each other. Done when they heard the sentence.",
+    "category": "connection",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Evening",
+    "priority": "targeted",
+    "frequency": "few_times_week",
+    "habitType": "conversation",
+    "target": "parent",
+    "goalTags": [
+      "less_conflict",
+      "closer_connection"
+    ],
+    "cluster": "specific_praise",
+    "requiredSignals": [
+      "siblings"
+    ]
+  },
+  {
+    "id": "habit_own_one_morning_step",
+    "title": "Let them own one morning step",
+    "subtitle": "Teeth, clothes, bag, or breakfast setup",
+    "description": "Pick one part of the morning they do without you taking over: teeth, clothes, bag, or breakfast setup. Done when they finished that step.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "2-4y",
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Morning",
+    "tags": [
+      "executive_function"
+    ],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "morning_chaos"
+    ],
+    "cluster": "morning_independence"
+  },
+  {
+    "id": "habit_snack_water_before_homework",
+    "title": "Choose a regular homework time that fits your child",
+    "subtitle": "Allow for a snack or play beforehand if helpful",
+    "description": "Agree on a study time that suits your child; some work better after a snack and play, while others prefer later.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support",
+      "better_focus"
+    ],
+    "recommendedWhen": [
+      "homework_conflict",
+      "transition_meltdowns"
+    ],
+    "cluster": "homework_start"
+  },
+  {
+    "id": "habit_one_responsibility_before_leisure",
+    "title": "Finish one small responsibility before leisure",
+    "subtitle": "Bag, clothes, pet, or dishes — then free time",
+    "description": "Ask for one small responsibility before leisure: bag away, clothes away, pet, or dishes. Done when that job finished first.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y",
+      "13-18y"
+    ],
+    "defaultTime": "Afternoon",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "daily",
+    "habitType": "routine",
+    "target": "child",
+    "goalTags": [
+      "better_cooperation"
+    ],
+    "recommendedWhen": [
+      "difficulty_starting_tasks"
+    ]
+  },
+  {
+    "id": "habit_child_questions_teacher_meeting",
+    "title": "Ask your child what they want you to discuss at their teacher meeting",
+    "subtitle": "Take their questions and concerns into the conversation.",
+    "description": "Before a primary-school teacher meeting, ask what your child wants discussed. Take those questions along and ask how you can support learning at home.",
+    "category": "school",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "school_support"
+    ],
+    "recommendedWhen": [],
+    "requiredSignals": [
+      "teacher_meeting"
+    ]
+  },
+  {
+    "id": "habit_child_savings_goal",
+    "title": "Help your child choose something to save for and plan how to afford it",
+    "subtitle": "For ages 6–9, connect saving with a specific goal.",
+    "description": "For ages 6–9, help your child identify a specific savings goal and make a plan to reach it.",
+    "category": "independence",
+    "gender": "both",
+    "ageGroups": [
+      "5-8y",
+      "9-12y"
+    ],
+    "defaultTime": "Event-based",
+    "tags": [],
+    "priority": "recommended",
+    "frequency": "opportunity_based",
+    "habitType": "practice",
+    "target": "family",
+    "goalTags": [
+      "more_confidence"
+    ],
+    "recommendedWhen": [],
+    "minAge": 6,
+    "maxAge": 9
+  }
+]
